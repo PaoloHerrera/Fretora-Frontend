@@ -10,18 +10,20 @@ export default function FeaturedProductVideo({
   price,
 }) {
   return (
-    <section className="featured-product-video">
-      <video autoPlay muted loop className="background-video">
+    <section className="relative featured-product-video">
+      <video autoPlay muted loop className="md:background-video">
         <source src={videoSrc} type="video/mp4" />
         Your browse does not support the video tag.
       </video>
       <div className="product-info">
-        <h1>{productName}</h1>
+        <h2>{productName}</h2>
         <p>{description}</p>
         <h2>
           ${offerPrice} <span className="original-price">${price}</span>
         </h2>
-        <Button color="primary">View More</Button>
+        <Button className="color-secondary" size="md">
+          View More
+        </Button>
       </div>
     </section>
   )
