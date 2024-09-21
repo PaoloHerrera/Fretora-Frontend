@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Emily Johnson",
+    "comment": "Amazing guitar for both beginners and pros. The sound is rich, and the semi-acoustic design is perfect for live performances. Couldn't be happier!",
+    "rating": 5,
+    "avatar": "https://res.cloudinary.com/dgbzqgmvn/image/upload/v1726283631/michael-dam-mEZ3PoFGs_k-unsplash_lqgotm.jpg"
+  },
+  {
+    "name": "David Thompson",
+    "comment": "Great value for the price! The only reason I'm giving it 4 stars is because the finish could be a bit more polished, but overall, the sound is fantastic.",
+    "rating": 4,
+    "avatar": "https://res.cloudinary.com/dgbzqgmvn/image/upload/v1726283523/albert-dera-ILip77SbmOE-unsplash_ydfpv0.jpg"
+  },
+  {
+    "name": "Sophia Martinez",
+    "comment": "I've tried many guitars, but this one stands out. The tone is smooth, and it's incredibly versatile for jazz, blues, and even rock. Definitely recommend!",
+    "rating": 5,
+    "avatar": "https://res.cloudinary.com/dgbzqgmvn/image/upload/v1726283704/zoe-fernandez--zqoE7jnQgw-unsplash_wrrswz.jpg"
+  },
+  {
+    "name": "Michael Brown",
+    "comment": "Solid instrument. The pickups are good, and it's comfortable to play. Would have loved if it came with a case, but the guitar itself is top-notch.",
+    "rating": 4,
+    "avatar": "https://res.cloudinary.com/dgbzqgmvn/image/upload/v1726283783/darshan-patel-QJEVpydulGs-unsplash_frkofm.jpg"
+  },
+  {
+    "name": "Olivia Green",
+    "comment": "This guitar sounds like a dream. The craftsmanship is impeccable, and the semi-acoustic feature adds a lot of depth to the sound. Highly recommended!",
+    "rating": 5,
+    "avatar": "https://res.cloudinary.com/dgbzqgmvn/image/upload/v1726283823/thanh-duc-phan-i5R8hbZFDdc-unsplash_tpu2kh.jpg"
+  },
+  {
+    "name": "James Wilson",
+    "comment": "It’s an excellent guitar for the price. It plays well, sounds great, and looks stunning. Just a slight buzz on the lower strings, but easy to fix.",
+    "rating": 4,
+    "avatar": "https://res.cloudinary.com/dgbzqgmvn/image/upload/v1726283891/alexander-hipp-iEEBWgY_6lA-unsplash_exos0t.jpg"
+  },
+  {
+    "name": "Ava Rodriguez",
+    "comment": "As a professional guitarist, I can say the Eko SA 350 exceeds expectations. The tonal quality is superb, and it’s a pleasure to play on stage and in the studio.",
+    "rating": 5,
+    "avatar": "https://res.cloudinary.com/dgbzqgmvn/image/upload/v1726283988/joshua-rawson-harris-0A5Lyckmm8s-unsplash_ppqd3n.jpg"
+  }
+]

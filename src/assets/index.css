@@ -33,3 +33,17 @@ body {
 .offers {
   /* max-height: 30vh; */
 }
+
+.badge {
+  position: absolute; /* Posiciona el badge de manera relativa a la card */
+  top: 10px;
+  left: 10px;
+  background-color: red;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  z-index: 10; /* Asegura que el badge esté siempre por encima de otros elementos */
+}

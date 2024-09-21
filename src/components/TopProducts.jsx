@@ -5,7 +5,7 @@ import '../assets/TopProducts.css'
 export default function TopProducts({ products }) {
   return (
     <div className="grid grid-cols-4 gap-2 pl-6 pt-8 pr-6">
-      {products.top_products.map((item, index) => (
+      {products.map((item, index) => (
         <Card
           shadow="sm"
           disableRipple
