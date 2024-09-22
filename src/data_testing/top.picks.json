@@ -1,0 +1,54 @@
+[
+  {
+    "name": "70s Flyng V",
+    "model": "Dark Walnut",
+    "brand": "Gibson",
+    "type": "Electrics",
+    "image": "https://res.cloudinary.com/dgbzqgmvn/image/upload/v1726976192/70s-Flying-V-Dark-Walnut-2_wvmeqk.png",
+    "original_price": "2,499.00",
+    "currency": "USD",
+    "stock": 12,
+    "in_stock": true,
+    "new_arrival": true,
+    "best_seller": false
+  },
+  {
+    "name": "SG Standard",
+    "model": "Ebony",
+    "brand": "Gibson",
+    "type": "Electrics",
+    "image": "https://res.cloudinary.com/dgbzqgmvn/image/upload/v1726972976/Gibson-SG-Standard-Ebony_xbz8pb.png",
+    "original_price": "1,799.00",
+    "currency": "USD",
+    "stock": 20,
+    "in_stock": true,
+    "new_arrival": false,
+    "best_seller": true
+  },
+  {
+    "name": "JVM410C",
+    "model": "100W",
+    "brand": "Marshall",
+    "type": "Amps",
+    "image": "https://res.cloudinary.com/dgbzqgmvn/image/upload/v1726978933/jvm410c-two_asset-hybrid-08_lun1jj.jpg",
+    "original_price": "1,299.00",
+    "currency": "USD",
+    "stock": 5,
+    "in_stock": true,
+    "new_arrival": false,
+    "best_seller": true
+  },
+  {
+    "name": "F310",
+    "model": "Natural",
+    "brand": "Yamaha",
+    "type": "Acoustics",
+    "image": "https://res.cloudinary.com/dgbzqgmvn/image/upload/v1726979900/F310_-_Natural_iynue9.png",
+    "original_price": "499.00",
+    "currency": "USD",
+    "stock": 14,
+    "in_stock": true,
+    "new_arrival": false,
+    "best_seller": true
+  }
+]

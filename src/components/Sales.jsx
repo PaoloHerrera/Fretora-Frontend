@@ -13,11 +13,11 @@ import Products from './Products'
 
 export default function Sales({ limitedTimeSale, offers }) {
   return (
-    <section className="pt-10 pl-6 pr-6">
-      <div className="grid grid-cols-2 md:grid-cols-4 grid-rows-2 sm:gap-10 gap-2">
-        <Card className="col-span-2 row-span-2 relative">
+    <div className="pt-10 pl-6 pr-6">
+      <div className="grid grid-cols-2 lg:grid-cols-4 grid-rows-2 sm:gap-10 gap-2">
+        <Card className="col-span-2 lg:col-span-2 row-span-2 relative">
           <CardHeader className="flex justify-center flex-col pt-10">
-            <div className="badge">Offer Expires In...</div>
+            <div className="limited-badge">Offer Expires In...</div>
             <FlipClockCountdown
               className="mt-5"
               to={new Date(limitedTimeSale.expiration_offer).getTime()}
@@ -64,7 +64,7 @@ export default function Sales({ limitedTimeSale, offers }) {
           <Products product={item} key={index}></Products>
         ))}
       </div>
-    </section>
+    </div>
   )
 }
 
@@ -91,6 +91,10 @@ Sales.propTypes = {
       original_price: PropTypes.string.isRequired,
       discount_price: PropTypes.string.isRequired,
       currency: PropTypes.string.isRequired,
+      stock: PropTypes.number.isRequired,
+      in_stock: PropTypes.bool.isRequired,
+      new_arrival: PropTypes.bool.isRequired,
+      best_seller: PropTypes.bool.isRequired,
     }).isRequired
   ).isRequired,
 }

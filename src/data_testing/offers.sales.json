@@ -7,7 +7,11 @@
     "image": "https://res.cloudinary.com/dgbzqgmvn/image/upload/v1726797178/1-guitarra-electrica-gibson-les-paul-standard-50s-plain-top-inverness-green-1112560_wcow6r.png",
     "original_price": "2,599.00",
     "discount_price": "2,299.00",
-    "currency": "USD"
+    "currency": "USD",
+    "stock": 16,
+    "in_stock": true,
+    "new_arrival": false,
+    "best_seller": false
   },
   {
     "name": "American Performer Telecaster",
@@ -17,7 +21,11 @@
     "image": "https://res.cloudinary.com/dgbzqgmvn/image/upload/v1726797428/1-guitarra-electrica-fender-american-performer-telecaster-vintage-white-1113244_ucmaor.png",
     "original_price": "1,799.99",
     "discount_price": "1,599.99",
-    "currency": "USD"
+    "currency": "USD",
+    "stock": 20,
+    "in_stock": true,
+    "new_arrival": false,
+    "best_seller": false
   },
   {
     "name": "JS32 Dinky",
@@ -27,7 +35,11 @@
     "image": "https://res.cloudinary.com/dgbzqgmvn/image/upload/v1726797192/2910137580-js32-dinky-neon-orange-1500_ijpvga.png",
     "original_price": "599.00",
     "discount_price": "499.00",
-    "currency": "USD"
+    "currency": "USD",
+    "stock": 10,
+    "in_stock": true,
+    "new_arrival": false,
+    "best_seller": false
   },
   {
     "name": "F-200",
@@ -37,6 +49,10 @@
     "image": "https://res.cloudinary.com/dgbzqgmvn/image/upload/v1726797156/LTD_F-200_Black_c13im7.png",
     "original_price": "599.00",
     "discount_price": "499.00",
-    "currency": "USD"
+    "currency": "USD",
+    "stock": 7,
+    "in_stock": true,
+    "new_arrival": false,
+    "best_seller": false
   }
 ]

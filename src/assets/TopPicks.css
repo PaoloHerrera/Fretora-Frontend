@@ -1,0 +1,22 @@
+.best-seller-badge {
+  /* Posiciona el badge de manera relativa a la card */
+  background-color: #3b413c;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  z-index: 10;
+}
+
+.new-arrival-badge {
+  background-color: #3b413c;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  z-index: 10;
+}

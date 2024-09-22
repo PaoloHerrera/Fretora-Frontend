@@ -30,15 +30,11 @@ body {
   align-items: start;
 }
 
-.offers {
-  /* max-height: 30vh; */
-}
-
-.badge {
+.limited-badge {
   position: absolute; /* Posiciona el badge de manera relativa a la card */
   top: 10px;
   left: 10px;
-  background-color: red;
+  background-color: #d10000;
   color: white;
   padding: 5px 10px;
   border-radius: 5px;

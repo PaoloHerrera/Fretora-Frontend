@@ -11,35 +11,55 @@ import PropTypes from 'prop-types'
 export default function Products({ product }) {
   return (
     <>
-      <Card>
-        <CardHeader className="flex justify-center flex-col pt-2">
-          <h3 className="font-bold mt-3 text-lg">{product.brand}</h3>
-          <h4 className="text-center">{product.name} -</h4>
-          <h4 className="text-center">{product.model}</h4>
-        </CardHeader>
-        <Image
-          removeWrapper
-          src={product.image}
-          className="object-cover"
-          alt={product.name}
-        ></Image>
-        <Divider></Divider>
-        <CardFooter className="flex flex-col">
-          {product.discount_price ? (
-            <>
-              <h3 className="text-2xl font-bold">${product.discount_price}</h3>
-              <p className="line-through ml-3 text-md">
-                ${product.original_price}
-              </p>
-            </>
-          ) : (
-            <h3 className="text-2xl font-bold">${product.discount_price}</h3>
-          )}
-          <Button className="color-secondary mt-3" size="md">
-            View More
-          </Button>
-        </CardFooter>
-      </Card>
+      {product.in_stock ? (
+        <article>
+          <Card shadow="sm">
+            <CardHeader className="flex flex-col pt-2">
+              {product.new_arrival ? (
+                <div className="new-arrival-badge self-start">New Arrival</div>
+              ) : (
+                <></>
+              )}
+              {product.best_seller ? (
+                <div className="best-seller-badge self-start">Best Seller</div>
+              ) : (
+                <></>
+              )}
+              <h3 className="font-bold mt-3 text-lg">{product.brand}</h3>
+              <h4 className="text-center">{product.name} -</h4>
+              <h4 className="text-center">{product.model}</h4>
+            </CardHeader>
+            <Image
+              removeWrapper
+              src={product.image}
+              className="object-cover"
+              alt={product.name}
+            ></Image>
+            <Divider></Divider>
+            <CardFooter className="flex flex-col">
+              {product.discount_price ? (
+                <>
+                  <h3 className="text-2xl font-bold">
+                    ${product.discount_price}
+                  </h3>
+                  <p className="line-through ml-3 text-md">
+                    ${product.original_price}
+                  </p>
+                </>
+              ) : (
+                <h3 className="text-2xl font-bold">
+                  ${product.original_price}
+                </h3>
+              )}
+              <Button className="color-secondary mt-3" size="md">
+                View More
+              </Button>
+            </CardFooter>
+          </Card>
+        </article>
+      ) : (
+        <></>
+      )}
     </>
   )
 }
@@ -56,5 +76,9 @@ Products.propTypes = {
     expiration_offer: PropTypes.string,
     time_zone: PropTypes.string,
     currency: PropTypes.string.isRequired,
+    stock: PropTypes.number.isRequired,
+    in_stock: PropTypes.bool.isRequired,
+    new_arrival: PropTypes.bool.isRequired,
+    best_seller: PropTypes.bool.isRequired,
   }).isRequired,
 }
