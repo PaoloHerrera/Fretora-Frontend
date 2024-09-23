@@ -1,8 +1,8 @@
-/* eslint-disable react/prop-types */
 import { Card, CardHeader, CardBody, Avatar } from '@nextui-org/react'
 import { Rating } from '@mui/material'
 import Slider from 'react-slick'
 import '../assets/Reviews.css'
+import PropTypes from 'prop-types'
 
 export default function Reviews({ reviews }) {
   const settings = {
@@ -66,4 +66,15 @@ export default function Reviews({ reviews }) {
       </Slider>
     </div>
   )
+}
+
+Reviews.propTypes = {
+  reviews: PropTypes.arrayOf(
+    PropTypes.shape({
+      name: PropTypes.string.isRequired,
+      comment: PropTypes.string.isRequired,
+      rating: PropTypes.number.isRequired,
+      avatar: PropTypes.string.isRequired,
+    }).isRequired
+  ),
 }

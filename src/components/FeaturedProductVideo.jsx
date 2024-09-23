@@ -1,6 +1,6 @@
-/* eslint-disable react/prop-types */
 import { Button } from '@nextui-org/react'
 import '../assets/FeaturedProductVideo.css'
+import PropTypes from 'prop-types'
 
 export default function FeaturedProductVideo({
   videoSrc,
@@ -27,4 +27,12 @@ export default function FeaturedProductVideo({
       </div>
     </section>
   )
+}
+
+FeaturedProductVideo.propTypes = {
+  videoSrc: PropTypes.string.isRequired,
+  productName: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired,
+  offerPrice: PropTypes.string.isRequired,
+  price: PropTypes.string.isRequired,
 }
