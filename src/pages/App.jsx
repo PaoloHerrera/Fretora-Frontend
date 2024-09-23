@@ -2,6 +2,7 @@ import NavbarAnon from '../components/NavbarAnon'
 import video from '../../public/eko_sa_350.mp4'
 import FeaturedProductVideo from '../components/FeaturedProductVideo'
 import eko_sa_350_reviews from '../data_testing/eko_sa_350.reviews.json'
+import fretora_reviews from '../data_testing/fretora.reviews.json'
 import Reviews from '../components/Reviews'
 import limited_time_sale from '../data_testing/limited_time.sales.json'
 import offers from '../data_testing/offers.sales.json'
@@ -12,7 +13,7 @@ import TopPicks from '../components/TopPicks'
 
 export default function App() {
   return (
-    <>
+    <main>
       <NavbarAnon />
       <FeaturedProductVideo
         videoSrc={video}
@@ -41,6 +42,20 @@ export default function App() {
         </div>
         <TopPicks products={top_picks} />
       </section>
-    </>
+      <section>
+        <div className="text-3xl font-bold pt-10 pl-6">
+          <Divider></Divider>
+          <h2 className="text-center pt-10">OUR PARTNERS</h2>
+        </div>
+        <Reviews reviews={fretora_reviews} />
+      </section>
+      <section>
+        <div className="text-3xl font-bold pt-10 pl-6">
+          <Divider></Divider>
+          <h2 className="text-center pt-10">Feedback from Our Clients</h2>
+        </div>
+        <Reviews reviews={fretora_reviews} />
+      </section>
+    </main>
   )
 }
