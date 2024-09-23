@@ -10,6 +10,8 @@ import Sales from '../components/Sales'
 import { Divider } from '@nextui-org/react'
 import top_picks from '../data_testing/top.picks.json'
 import TopPicks from '../components/TopPicks'
+import OurPartners from '../components/OurPartners'
+import partners from '../data_testing/partners.json'
 
 export default function App() {
   return (
@@ -47,7 +49,7 @@ export default function App() {
           <Divider></Divider>
           <h2 className="text-center pt-10">OUR PARTNERS</h2>
         </div>
-        <Reviews reviews={fretora_reviews} />
+        <OurPartners partners={partners} />
       </section>
       <section>
         <div className="text-3xl font-bold pt-10 pl-6">

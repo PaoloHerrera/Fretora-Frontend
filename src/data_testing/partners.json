@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Ibanez",
+    "type": ["Electrics", "Acoustics", "Amps", "Pedals & Effects"],
+    "logo": "https://res.cloudinary.com/dgbzqgmvn/image/upload/v1727055036/Ibanez_lttr4u.png"
+  },
+  {
+    "name": "Gibson",
+    "type": ["Electrics", "Acoustics", "Amps"],
+    "logo": "https://res.cloudinary.com/dgbzqgmvn/image/upload/v1727057875/gibson_qn1rgv.png"
+  },
+  {
+    "name": "Fender",
+    "type": ["Electrics", "Electro Acoustics", "Acoustics", "Amps"],
+    "logo": "https://res.cloudinary.com/dgbzqgmvn/image/upload/v1727055036/Fender_qsajef.png"
+  },
+  {
+    "name": "Jackson",
+    "type": ["Electrics"],
+    "logo": "https://res.cloudinary.com/dgbzqgmvn/image/upload/v1727055036/jackson-guitars-logo_ysdlb5.png"
+  },
+  {
+    "name": "ESP",
+    "type": ["Electrics"],
+    "logo": "https://res.cloudinary.com/dgbzqgmvn/image/upload/v1727057245/esp_ikvn3c.png"
+  },
+  {
+    "name": "LTD",
+    "type": ["Electrics"],
+    "logo": "https://res.cloudinary.com/dgbzqgmvn/image/upload/v1727055037/ltd_kptp4c.png"
+  },
+  {
+    "name": "Eko",
+    "type": ["Electrics", "Acoustics", "Amps"],
+    "logo": "https://res.cloudinary.com/dgbzqgmvn/image/upload/v1727055036/eko_rrk4tb.png"
+  },
+  {
+    "name": "Takamine",
+    "type": ["Electro Acoustics"],
+    "logo": "https://res.cloudinary.com/dgbzqgmvn/image/upload/v1727056078/takamine_lu9zz3.png"
+  },
+  {
+    "name": "Yamaha",
+    "type": ["Electro Acoustics", "Acoustics"],
+    "logo": "https://res.cloudinary.com/dgbzqgmvn/image/upload/v1727057331/yamaha-black-logo-png-image-701751694774658yftuzaicev_hkktcr.png"
+  },
+  {
+    "name": "Marshall",
+    "type": ["Amps"],
+    "logo": "https://res.cloudinary.com/dgbzqgmvn/image/upload/v1727055036/marshall_kwxeyu.png"
+  },
+  {
+    "name": "Boss",
+    "type": ["Amps", "Pedals & Effects"],
+    "logo": "https://res.cloudinary.com/dgbzqgmvn/image/upload/v1727055036/boss-katana_1_ocwegp.png"
+  },
+  {
+    "name": "Vox",
+    "type": ["Amps", "Pedals & Effects"],
+    "logo": "https://res.cloudinary.com/dgbzqgmvn/image/upload/v1727056077/Vox_c01b3c89-6b5a-4b2e-a6a3-20e0e1c19ce7_1080x_w9w7zw.png"
+  }
+]
