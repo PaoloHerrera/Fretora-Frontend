@@ -7,11 +7,12 @@ import {
   Button,
 } from '@nextui-org/react'
 import PropTypes from 'prop-types'
+import { Link } from 'react-router-dom'
 
 export default function Products({ product }) {
   return (
     <>
-      {product.in_stock ? (
+      {product.in_stock && (
         <article>
           <Card shadow="sm">
             <CardHeader className="flex flex-col pt-2">
@@ -47,14 +48,16 @@ export default function Products({ product }) {
                   ${product.original_price}
                 </h3>
               )}
-              <Button className="color-secondary mt-3" size="md">
-                View More
-              </Button>
+              <Link
+                to={`/product/${product.type.toLowerCase()}/${product.brand.toLowerCase()}/${product.slug}`}
+              >
+                <Button className="color-secondary mt-3" size="md">
+                  View More
+                </Button>
+              </Link>
             </CardFooter>
           </Card>
         </article>
-      ) : (
-        <></>
       )}
     </>
   )
@@ -62,6 +65,7 @@ export default function Products({ product }) {
 
 Products.propTypes = {
   product: PropTypes.shape({
+    id: PropTypes.string.isRequired,
     name: PropTypes.string.isRequired,
     model: PropTypes.string.isRequired,
     brand: PropTypes.string.isRequired,
@@ -76,5 +80,6 @@ Products.propTypes = {
     in_stock: PropTypes.bool.isRequired,
     new_arrival: PropTypes.bool.isRequired,
     best_seller: PropTypes.bool.isRequired,
+    slug: PropTypes.string.isRequired,
   }).isRequired,
 }

@@ -1,58 +1,66 @@
 [
   {
+    "id": "fa0612f8-d6cb-4663-99f7-2f88637e58e0",
     "name": "Les Paul 50s Standard Plain Top",
     "model": "Inverness Green",
     "brand": "Gibson",
     "type": "Electrics",
     "image": "https://res.cloudinary.com/dgbzqgmvn/image/upload/v1726797178/1-guitarra-electrica-gibson-les-paul-standard-50s-plain-top-inverness-green-1112560_wcow6r.png",
-    "original_price": "2,599.00",
-    "discount_price": "2,299.00",
+    "original_price": 2599.0,
+    "discount_price": 2299.0,
     "currency": "USD",
     "stock": 16,
     "in_stock": true,
     "new_arrival": false,
-    "best_seller": false
+    "best_seller": false,
+    "slug": "les-paul-50s-standard-plain-top"
   },
   {
+    "id": "8425a070-7245-495d-8c22-0c53058e1ca2",
     "name": "American Performer Telecaster",
     "model": "Vintage White",
     "brand": "Fender",
     "type": "Electrics",
     "image": "https://res.cloudinary.com/dgbzqgmvn/image/upload/v1726797428/1-guitarra-electrica-fender-american-performer-telecaster-vintage-white-1113244_ucmaor.png",
-    "original_price": "1,799.99",
-    "discount_price": "1,599.99",
+    "original_price": 1799.99,
+    "discount_price": 1599.99,
     "currency": "USD",
     "stock": 20,
     "in_stock": true,
     "new_arrival": false,
-    "best_seller": false
+    "best_seller": false,
+    "slug": "american-performer-telecaster"
   },
   {
+    "id": "0e8bfc61-0921-4fdb-8979-5b2e4b2567e6",
     "name": "JS32 Dinky",
     "model": "Neon Orange",
     "brand": "Jackson",
     "type": "Electrics",
     "image": "https://res.cloudinary.com/dgbzqgmvn/image/upload/v1726797192/2910137580-js32-dinky-neon-orange-1500_ijpvga.png",
-    "original_price": "599.00",
-    "discount_price": "499.00",
+    "original_price": 599.0,
+    "discount_price": 499.0,
     "currency": "USD",
     "stock": 10,
     "in_stock": true,
     "new_arrival": false,
-    "best_seller": false
+    "best_seller": false,
+    "slug": "js32-dinky"
   },
   {
+    "id": "48c30eda-f4f7-4ace-ba9b-7246234ca489",
     "name": "F-200",
     "model": "Black",
     "brand": "LTD",
     "type": "Electrics",
     "image": "https://res.cloudinary.com/dgbzqgmvn/image/upload/v1726797156/LTD_F-200_Black_c13im7.png",
-    "original_price": "599.00",
-    "discount_price": "499.00",
+    "original_price": 599.0,
+    "discount_price": 499.0,
     "currency": "USD",
     "stock": 7,
     "in_stock": true,
     "new_arrival": false,
-    "best_seller": false
+    "best_seller": false,
+    "slug": "f-200"
   }
 ]

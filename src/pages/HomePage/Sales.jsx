@@ -9,7 +9,7 @@ import {
 import PropTypes from 'prop-types'
 import FlipClockCountdown from '@leenguyen/react-flip-clock-countdown'
 import '@leenguyen/react-flip-clock-countdown/dist/index.css'
-import Products from '../../components/Products'
+import Products from '../../components/ProductCard'
 
 export default function Sales({ limitedTimeSale, offers }) {
   return (
@@ -60,8 +60,8 @@ export default function Sales({ limitedTimeSale, offers }) {
             </Button>
           </CardFooter>
         </Card>
-        {offers.map((item, index) => (
-          <Products product={item} key={index}></Products>
+        {offers.map((item) => (
+          <Products product={item} key={item.id}></Products>
         ))}
       </div>
     </div>
@@ -83,6 +83,7 @@ Sales.propTypes = {
   }).isRequired,
   offers: PropTypes.arrayOf(
     PropTypes.shape({
+      id: PropTypes.string.isRequired,
       name: PropTypes.string.isRequired,
       model: PropTypes.string.isRequired,
       brand: PropTypes.string.isRequired,
@@ -95,6 +96,7 @@ Sales.propTypes = {
       in_stock: PropTypes.bool.isRequired,
       new_arrival: PropTypes.bool.isRequired,
       best_seller: PropTypes.bool.isRequired,
+      slug: PropTypes.string.isRequired,
     }).isRequired
   ).isRequired,
 }

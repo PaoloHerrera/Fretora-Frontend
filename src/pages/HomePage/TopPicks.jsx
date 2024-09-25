@@ -1,4 +1,4 @@
-import Products from '../../components/Products'
+import Products from '../../components/ProductCard'
 import PropTypes from 'prop-types'
 import '../../css/TopPicks.css'
 
@@ -6,8 +6,8 @@ export default function TopPicks({ products }) {
   return (
     <div className="pt-10 pl-6 pr-6">
       <div className="grid grid-cols-2 md:grid-cols-4 sm:gap-10 gap-2">
-        {products.map((item, index) => (
-          <Products product={item} key={index}></Products>
+        {products.map((item) => (
+          <Products product={item} key={item.id}></Products>
         ))}
       </div>
     </div>
@@ -17,6 +17,7 @@ export default function TopPicks({ products }) {
 TopPicks.propTypes = {
   products: PropTypes.arrayOf(
     PropTypes.shape({
+      id: PropTypes.string.isRequired,
       name: PropTypes.string.isRequired,
       model: PropTypes.string.isRequired,
       brand: PropTypes.string.isRequired,
@@ -31,6 +32,7 @@ TopPicks.propTypes = {
       in_stock: PropTypes.bool.isRequired,
       new_arrival: PropTypes.bool.isRequired,
       best_seller: PropTypes.bool.isRequired,
+      slug: PropTypes.string.isRequired,
     }).isRequired
   ),
 }
