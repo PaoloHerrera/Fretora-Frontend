@@ -1,0 +1,45 @@
+.newsletter-container {
+  height: 400px; /* Ajusta la altura según tus necesidades */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+.newsletter-content {
+  background: #141496; /* Fondo semitransparente */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.newsletter-content h2 {
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+.newsletter-content p {
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.button-submit {
+  padding: 10px;
+  background-color: #d10000 !important;
+  color: white !important;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button-submit:hover {
+  background-color: #d10000;
+}
+
+.message {
+  margin-top: 10px;
+}

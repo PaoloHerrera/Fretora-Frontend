@@ -9,7 +9,7 @@ import {
 import PropTypes from 'prop-types'
 import FlipClockCountdown from '@leenguyen/react-flip-clock-countdown'
 import '@leenguyen/react-flip-clock-countdown/dist/index.css'
-import Products from './Products'
+import Products from '../../components/Products'
 
 export default function Sales({ limitedTimeSale, offers }) {
   return (

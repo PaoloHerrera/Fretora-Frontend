@@ -1,7 +1,7 @@
 import { Card, CardHeader, CardBody, Avatar } from '@nextui-org/react'
 import { Rating } from '@mui/material'
 import Slider from 'react-slick'
-import '../assets/Reviews.css'
+import '../css/Reviews.css'
 import PropTypes from 'prop-types'
 
 export default function Reviews({ reviews }) {

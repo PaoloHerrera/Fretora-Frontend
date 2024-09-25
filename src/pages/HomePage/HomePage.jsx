@@ -1,22 +1,20 @@
-import NavbarAnon from '../components/NavbarAnon'
-import video from '../../public/eko_sa_350.mp4'
-import FeaturedProductVideo from '../components/FeaturedProductVideo'
-import eko_sa_350_reviews from '../data_testing/eko_sa_350.reviews.json'
-import fretora_reviews from '../data_testing/fretora.reviews.json'
-import Reviews from '../components/Reviews'
-import limited_time_sale from '../data_testing/limited_time.sales.json'
-import offers from '../data_testing/offers.sales.json'
-import Sales from '../components/Sales'
+import video from '../../assets/videos/eko_sa_350.mp4'
+import FeaturedProductVideo from '../../components/FeaturedProductVideo'
+import eko_sa_350_reviews from '../../data_testing/eko_sa_350.reviews.json'
+import fretora_reviews from '../../data_testing/fretora.reviews.json'
+import Reviews from '../../components/Reviews'
+import limited_time_sale from '../../data_testing/limited_time.sales.json'
+import offers from '../../data_testing/offers.sales.json'
+import Sales from './Sales'
 import { Divider } from '@nextui-org/react'
-import top_picks from '../data_testing/top.picks.json'
-import TopPicks from '../components/TopPicks'
-import OurPartners from '../components/OurPartners'
-import partners from '../data_testing/partners.json'
+import top_picks from '../../data_testing/top.picks.json'
+import TopPicks from './TopPicks'
+import OurPartners from './OurPartners'
+import partners from '../../data_testing/partners.json'
 
-export default function App() {
+export default function HomePage() {
   return (
-    <main>
-      <NavbarAnon />
+    <>
       <FeaturedProductVideo
         videoSrc={video}
         productName="Eko SA 350"
@@ -58,6 +56,6 @@ export default function App() {
         </div>
         <Reviews reviews={fretora_reviews} />
       </section>
-    </main>
+    </>
   )
 }

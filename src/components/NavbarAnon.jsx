@@ -8,24 +8,39 @@ import {
   NavbarMenu,
   NavbarContent,
   NavbarItem,
-  Link,
   Button,
   Input,
   Divider,
 } from '@nextui-org/react'
-import logo from '../../public/fretora_logo.png'
+import logo from '../assets/images/fretora_logo.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons'
 import { ShoppingCartOutlined } from '@mui/icons-material'
+import { Link } from 'react-router-dom'
 
 export default function NavbarAnon() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const menuItems = [
-    'Electrics',
-    'Acoustics',
-    'Electro Acoustics',
-    'Amps',
-    'Pedals & Effects',
+    {
+      name: 'Electrics',
+      path: '/electrics',
+    },
+    {
+      name: 'Acoustics',
+      path: '/acoustic',
+    },
+    {
+      name: 'Electro Acoustics',
+      path: '/electro-acoustics',
+    },
+    {
+      name: 'Amps',
+      path: '/amps',
+    },
+    {
+      name: 'Pedals & Effects',
+      path: '/pedals-effects',
+    },
   ]
 
   return (
@@ -44,12 +59,16 @@ export default function NavbarAnon() {
         </NavbarContent>
 
         <NavbarContent className="min-w-24 xl:hidden pr-3" justify="start">
-          <img src={logo} width="150" height="150" />
+          <Link to={'/'}>
+            <img src={logo} width="150" height="150" />
+          </Link>
         </NavbarContent>
 
         <NavbarContent className="hidden xl:flex gap-4" justify="start">
           <NavbarBrand>
-            <img src={logo} width="150" height="150" />
+            <Link to={'/'}>
+              <img src={logo} width="150" height="150" />
+            </Link>
           </NavbarBrand>
         </NavbarContent>
         <NavbarContent
@@ -75,8 +94,8 @@ export default function NavbarAnon() {
               key={`${item}-${index}`}
               className="justify-self-center hidden xl:flex"
             >
-              <Link href="#" aria-current="page" className="navbar-items">
-                {item}
+              <Link to={item.path} aria-current="page" className="navbar-items">
+                {item.name}
               </Link>
             </NavbarItem>
           ))}
@@ -117,8 +136,8 @@ export default function NavbarAnon() {
           <Divider></Divider>
           {menuItems.map((item, index) => (
             <NavbarMenuItem key={`${item}-${index}`}>
-              <Link className="w-full navbar-items" href="#" size="lg">
-                {item}
+              <Link className="w-full navbar-items" to={item.path} size="lg">
+                {item.name}
               </Link>
             </NavbarMenuItem>
           ))}

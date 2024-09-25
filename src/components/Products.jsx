@@ -15,15 +15,11 @@ export default function Products({ product }) {
         <article>
           <Card shadow="sm">
             <CardHeader className="flex flex-col pt-2">
-              {product.new_arrival ? (
+              {product.new_arrival && (
                 <div className="new-arrival-badge self-start">New Arrival</div>
-              ) : (
-                <></>
               )}
-              {product.best_seller ? (
+              {product.best_seller && (
                 <div className="best-seller-badge self-start">Best Seller</div>
-              ) : (
-                <></>
               )}
               <h3 className="font-bold mt-3 text-lg">{product.brand}</h3>
               <h4 className="text-center">{product.name} -</h4>

@@ -1,6 +1,7 @@
 import { Card, Image } from '@nextui-org/react'
 import Slider from 'react-slick'
 import PropTypes from 'prop-types'
+import { Link } from 'react-router-dom'
 
 export default function OurPartners({ partners }) {
   const settings = {
@@ -47,22 +48,19 @@ export default function OurPartners({ partners }) {
   return (
     <div className="pt-10 pl-6 pr-6">
       <Slider arrows={false} {...settings}>
-        {partners.map((item, index) => (
-          <article key={index}>
-            <Card
-              key={index}
-              className="max-w-[140px] mb-4"
-              isPressable
-              onPress={() => console.log(`${item.name} is Pressable!`)}
-            >
-              <Image
-                removeWrapper
-                src={item.logo}
-                className="object-cover"
-                alt={item.name}
-              ></Image>
-            </Card>
-          </article>
+        {partners.map((item) => (
+          <Link key={item.id} to={item.url}>
+            <article>
+              <Card className="max-w-[140px] mb-4" isPressable>
+                <Image
+                  removeWrapper
+                  src={item.logo}
+                  className="object-cover"
+                  alt={item.name}
+                ></Image>
+              </Card>
+            </article>
+          </Link>
         ))}
       </Slider>
     </div>
@@ -72,9 +70,11 @@ export default function OurPartners({ partners }) {
 OurPartners.propTypes = {
   partners: PropTypes.arrayOf(
     PropTypes.shape({
+      id: PropTypes.string.isRequired,
       name: PropTypes.string.isRequired,
       type: PropTypes.array.isRequired,
       logo: PropTypes.string.isRequired,
+      url: PropTypes.string.isRequired,
     }).isRequired
   ),
 }

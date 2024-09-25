@@ -1,5 +1,5 @@
 import { Button } from '@nextui-org/react'
-import '../assets/FeaturedProductVideo.css'
+import '../css/FeaturedProductVideo.css'
 import PropTypes from 'prop-types'
 
 export default function FeaturedProductVideo({

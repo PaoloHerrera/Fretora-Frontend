@@ -1,6 +1,6 @@
-import Products from './Products'
+import Products from '../../components/Products'
 import PropTypes from 'prop-types'
-import '../assets/TopPicks.css'
+import '../../css/TopPicks.css'
 
 export default function TopPicks({ products }) {
   return (
