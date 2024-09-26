@@ -15,14 +15,14 @@ import partners from '../../data_testing/partners.json'
 export default function HomePage() {
   return (
     <>
-      <FeaturedProductVideo
-        videoSrc={video}
-        productName="Eko SA 350"
-        description="SA 350 is the semi-acoustic guitar of 'Tribute Jazz' series by Eko Guitars"
-        offerPrice="349.99"
-        price="400.00"
-      />
       <section>
+        <FeaturedProductVideo
+          videoSrc={video}
+          productName="Eko SA 350"
+          description="SA 350 is the semi-acoustic guitar of 'Tribute Jazz' series by Eko Guitars"
+          offerPrice="349.99"
+          price="400.00"
+        />
         <div className="text-3xl font-bold pt-10 pl-6">
           <h2>Eko SA 350 Reviews</h2>
         </div>
