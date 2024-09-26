@@ -17,6 +17,7 @@ import {
 } from '@nextui-org/react'
 import '../../css/ProductDetail.css'
 import { Info, Description, AddShoppingCart } from '@mui/icons-material'
+import { SnakeCaseToFirstLettersCase } from '../../utils/utils'
 
 export default function ProductDetail() {
   const { type, brand, slug } = useParams()
@@ -70,7 +71,11 @@ export default function ProductDetail() {
     <section>
       <article className="max-h-[75vh] overflow-auto">
         <div className="flex justify-between pt-10 pr-6 pl-6">
-          <Image src={product.image_detail}></Image>
+          <Image
+            src={product.image_detail}
+            alt={`${product.brand} ${product.name} ${product.color}`}
+            isZoomed
+          ></Image>
           <div className="flex flex-col text-center items-center gap-2">
             <div className="font-bold text-black">Select Color</div>
             <div className="pt-4">
@@ -150,14 +155,9 @@ export default function ProductDetail() {
                   </TableHeader>
                   <TableBody>
                     {Object.keys(product.specs).map((key) => (
-                      <TableRow key={key}>
+                      <TableRow key={`${product.slug}-${key}`}>
                         <TableCell className="font-bold text-black">
-                          {(
-                            key.charAt(0).toUpperCase() +
-                            key.split('_').join(' ').slice(1)
-                          ).replace(/(^\w{1})|(\s+\w{1})/g, (letter) =>
-                            letter.toUpperCase()
-                          )}
+                          {SnakeCaseToFirstLettersCase(key)}
                         </TableCell>
                         <TableCell className="text-black">
                           {product.specs[key]}
