@@ -9,7 +9,7 @@ import {
 import PropTypes from 'prop-types'
 import FlipClockCountdown from '@leenguyen/react-flip-clock-countdown'
 import '@leenguyen/react-flip-clock-countdown/dist/index.css'
-import Products from '../../components/ProductCard'
+import ProductCard from '../../components/ProductCard'
 
 export default function Sales({ limitedTimeSale, offers }) {
   return (
@@ -61,7 +61,7 @@ export default function Sales({ limitedTimeSale, offers }) {
           </CardFooter>
         </Card>
         {offers.map((item) => (
-          <Products product={item} key={item.id}></Products>
+          <ProductCard product={item} key={item.id}></ProductCard>
         ))}
       </div>
     </div>
