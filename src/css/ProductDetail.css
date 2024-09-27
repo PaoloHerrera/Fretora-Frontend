@@ -24,5 +24,9 @@
 }
 
 .color-select > div {
-  gap: 0.8rem;
+  gap: 0.9rem;
+}
+
+.product-image {
+  z-index: 0;
 }

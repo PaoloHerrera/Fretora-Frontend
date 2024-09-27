@@ -1,6 +1,6 @@
 import NavbarAnon from './components/NavbarAnon'
 import HomePage from './pages/HomePage/HomePage'
-import ProductDetail from './pages/Product/ProductDetail'
+import ProductDetailPage from './pages/ProductDetailPage/ProductDetailPage'
 import { Route, Routes } from 'react-router-dom'
 
 export default function App() {
@@ -12,7 +12,7 @@ export default function App() {
           <Route path="/" element={<HomePage />}></Route>
           <Route
             path="/product/:type/:brand/:slug"
-            element={<ProductDetail />}
+            element={<ProductDetailPage />}
           ></Route>
         </Routes>
       </main>
