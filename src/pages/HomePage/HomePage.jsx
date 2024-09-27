@@ -15,7 +15,10 @@ import partners from '../../data_testing/partners.json'
 export default function HomePage() {
   return (
     <>
-      <section>
+      <h1 className="text-4xl font-bold text-center pt-10">
+        Fretora: Where Passion for Guitars Comes to Life
+      </h1>
+      <section className="pt-10">
         <FeaturedProductVideo
           videoSrc={video}
           productName="Eko SA 350"
@@ -28,24 +31,25 @@ export default function HomePage() {
         </div>
         <Reviews reviews={eko_sa_350_reviews} />
       </section>
+
       <section>
         <div className="text-3xl font-bold pt-10">
           <Divider></Divider>
-          <h2 className="text-center pt-10">SALES</h2>
+          <h2 className="text-center pt-10">FRETORA SALES</h2>
         </div>
         <Sales limitedTimeSale={limited_time_sale} offers={offers} />
       </section>
       <section>
         <div className="text-3xl font-bold pt-10 pl-6">
           <Divider></Divider>
-          <h2 className="text-center pt-10">TOP PICKS</h2>
+          <h2 className="text-center pt-10">FRETORA TOP PICKS</h2>
         </div>
         <TopPicks products={top_picks} />
       </section>
       <section>
         <div className="text-3xl font-bold pt-10 pl-6">
           <Divider></Divider>
-          <h2 className="text-center pt-10">OUR PARTNERS</h2>
+          <h2 className="text-center pt-10">FRETORA PARTNERS</h2>
         </div>
         <OurPartners partners={partners} />
       </section>
