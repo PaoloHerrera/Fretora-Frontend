@@ -10,23 +10,23 @@ export default function ProductDetail({
 }) {
   return (
     <>
-      <div className="flex justify-between items-center gap-7">
-        <h1 className="font-bold text-black text-lg">
+      <div className="flex justify-between gap-4 flex-col">
+        <h1 className="font-bold text-black text-xl">
           {name} - {color}
         </h1>
+        <div>
+          <h2 className="font-bold text-black text-lg">{brand}</h2>
+        </div>
         {onSale ? (
-          <div className="font-bold text-black text-lg">
+          <div className="font-bold text-black text-xl">
             ${discountPrice}
-            <span className="original-price text-gray-700">
+            <span className="ml-3 line-through text-gray-700 text-sm">
               ${originalPrice}
             </span>
           </div>
         ) : (
-          <div className="font-bold text-black text-lg">${originalPrice}</div>
+          <div className="font-bold text-black text-xl">${originalPrice}</div>
         )}
-      </div>
-      <div className="pt-3">
-        <h2 className="font-bold text-black text-md">{brand}</h2>
       </div>
     </>
   )
