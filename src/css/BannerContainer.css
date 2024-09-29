@@ -1,0 +1,37 @@
+.slick-banner > .slick-active > div {
+  background-color: #d10000;
+}
+
+.slick-banner li {
+  width: 25px !important;
+}
+
+.slick-banner li div span {
+  width: 15px;
+}
+
+.slick-banner {
+  bottom: 20% !important;
+  padding-left: 1.5rem !important;
+  text-align: left !important;
+}
+
+.carousel > div > div > div {
+  height: 100%;
+}
+
+.carousel > div > div > div {
+  height: 100%;
+}
+
+.carousel > div > div {
+  height: 100%;
+}
+
+.carousel > div {
+  height: 100%;
+}
+
+div:has(> .banner-container) {
+  height: 100%;
+}
