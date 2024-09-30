@@ -1,4 +1,4 @@
-import Products from '../../components/ProductCard'
+import ProductCard from '../../components/ProductCard'
 import PropTypes from 'prop-types'
 import '../../css/TopPicks.css'
 
@@ -7,7 +7,7 @@ export default function TopPicks({ products }) {
     <div className="pt-10 pl-6 pr-6">
       <div className="grid grid-cols-2 md:grid-cols-4 sm:gap-10 gap-2">
         {products.map((item) => (
-          <Products product={item} key={item.id}></Products>
+          <ProductCard product={item} key={item.id}></ProductCard>
         ))}
       </div>
     </div>

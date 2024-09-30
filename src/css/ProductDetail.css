@@ -1,13 +1,21 @@
-.american-performer-telecaster-vintage-white > span {
+.american-performer-telecaster-vintage-white :nth-child(2) {
   background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1727315872/fen_vintage_white_lx3fyv.png');
 }
 
-.american-performer-telecaster-honey-burst > span {
+.american-performer-telecaster-honey-burst :nth-child(2) {
   background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1727315872/honey-burst_imh0a6.png');
 }
 
-.american-performer-telecaster-satin-sonic-blue > span {
+.american-performer-telecaster-satin-sonic-blue :nth-child(2) {
   background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1727315873/sonic-blue_eluw6b.png');
+}
+
+.american-performer-telecaster-satin-sonic-blue :nth-child(2) {
+  background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1727315873/sonic-blue_eluw6b.png');
+}
+
+.sa-350-sunburst :nth-child(2) {
+  background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1727633035/Antik-Sunburst-big_fuwki3.jpg');
 }
 
 .item-selected > span {

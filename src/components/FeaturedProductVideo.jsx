@@ -1,10 +1,14 @@
 import { Button } from '@nextui-org/react'
 import '../css/FeaturedProductVideo.css'
 import PropTypes from 'prop-types'
+import { Link } from 'react-router-dom'
 
 export default function FeaturedProductVideo({
   videoSrc,
-  productName,
+  type,
+  brand,
+  slug,
+  model,
   description,
   offerPrice,
   price,
@@ -22,7 +26,7 @@ export default function FeaturedProductVideo({
       </video>
       <div className="absolute inset-0 flex flex-col items-start justify-center p-4 pl-6">
         <h2 className="text-white text-2xl md:text-3xl font-bold">
-          {productName}
+          {brand} {model}
         </h2>
         <p className="text-white text-lg md:text-xl mt-2">{description}</p>
         <h2 className="text-white text-xl md:text-2xl mt-4">
@@ -31,9 +35,13 @@ export default function FeaturedProductVideo({
             ${price}
           </span>
         </h2>
-        <Button className="color-secondary mt-4" size="md">
-          View More
-        </Button>
+        <Link
+          to={`/product/${type.toLowerCase()}/${brand.toLowerCase()}/${slug}`}
+        >
+          <Button className="color-secondary mt-4" size="md">
+            View More
+          </Button>
+        </Link>
       </div>
     </article>
   )
@@ -41,7 +49,10 @@ export default function FeaturedProductVideo({
 
 FeaturedProductVideo.propTypes = {
   videoSrc: PropTypes.string.isRequired,
-  productName: PropTypes.string.isRequired,
+  brand: PropTypes.string.isRequired,
+  type: PropTypes.string.isRequired,
+  model: PropTypes.string.isRequired,
+  slug: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
   offerPrice: PropTypes.string.isRequired,
   price: PropTypes.string.isRequired,

@@ -100,5 +100,41 @@
       "controls": "Master Volume, Master Tone",
       "bridge": "3-Saddle Vintage-Style Strings-Through-Body Tele® with Brass Barrel Saddles"
     }
+  },
+  {
+    "id": "71a85140-6441-488a-9e63-d01d2f94005a",
+    "name": "SA 350",
+    "description": "The 'Tribute Jazz' series was created to offer all guitarists the possibility of having an instrument particularly suited and designed for jazz music, with characteristics similar to guitar models that have made music history. Thanks to its fantastic price/quality ratio, this instrument is inspired by Gibsonian models, which are predominantly used in jazz. The SA 350 has a Maple top, Pawlonia back and sides, Maple neck and WPC (Wood Polymers Compsite) fingerboard. It features an Eko tune-o-matic bridge, two Eko humbucker pickups, volume and tone controls for each pickup and a 3-way toggle switch. It features a 43mm nut, 630mm scale length and the fingerboard extends to 22 frets. Featuring a vintage sound, the SA 350 is ideal for playing jazz, 50s rock 'n roll, rock.",
+    "color": "Sunburst",
+    "color_image": "https://res.cloudinary.com/dgbzqgmvn/image/upload/v1727633035/Antik-Sunburst-big_fuwki3.jpg",
+    "fingerboard": "Maple",
+    "fingerboard_image": "",
+    "brand": "Eko",
+    "type": "Electrics",
+    "image": "https://res.cloudinary.com/dgbzqgmvn/image/upload/v1727632559/eko-sa350_1_vzu4re.png",
+    "image_detail": "https://res.cloudinary.com/dgbzqgmvn/image/upload/v1727632559/eko-sa350_ybnreo.png",
+    "original_price": "349.99",
+    "discount_price": "400.00",
+    "currency": "USD",
+    "stock": 22,
+    "in_stock": true,
+    "on_sale": true,
+    "new_arrival": false,
+    "best_seller": false,
+    "slug": "sa-350-sunburst",
+    "specs": {
+      "Back_and_sides_material": "Pawlonia",
+      "neck_material": "Maple",
+      "fingerboard_material": "Eko WPC (Wood Polymers Compsite)",
+      "body_finish": "Gloss",
+      "neck_finish": "Gloss",
+      "number_frets": "22",
+      "frets_type": "3mm x 1.0mm in Silver/Nickel - Jumbo",
+      "neck_pickup": "Eko humbucker",
+      "bridge_pickup": "Eko humbucker",
+      "switching": "3-Way Toggle Switch",
+      "controls": "1 Volume and 1 Tone for each pickup",
+      "bridge": "Eko tune-o-matic style"
+    }
   }
 ]

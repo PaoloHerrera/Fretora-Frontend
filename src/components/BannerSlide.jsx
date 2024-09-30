@@ -18,7 +18,7 @@ export default function BannerSlide({
       <div className="banner-slide-info">
         {imageTitle && (
           <div className="absolute inset-0 flex items-center bg-black bg-opacity-50 z-10">
-            <h1 className="text-white text-2xl md:text-4xl font-bold pl-6 w-1/2 md:w-1/3">
+            <h1 className="text-white text-3xl md:text-4xl font-bold pl-6 w-1/2 md:w-1/3">
               {imageTitle}
             </h1>
           </div>
