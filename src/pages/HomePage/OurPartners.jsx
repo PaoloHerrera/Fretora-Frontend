@@ -72,7 +72,7 @@ OurPartners.propTypes = {
     PropTypes.shape({
       id: PropTypes.string.isRequired,
       name: PropTypes.string.isRequired,
-      type: PropTypes.array.isRequired,
+      categories: PropTypes.array.isRequired,
       logo: PropTypes.string.isRequired,
       url: PropTypes.string.isRequired,
     }).isRequired

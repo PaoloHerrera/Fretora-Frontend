@@ -9,8 +9,8 @@ import { Divider } from '@nextui-org/react'
 import top_picks from '../../data_testing/top.picks.json'
 import TopPicks from './TopPicks'
 import OurPartners from './OurPartners'
-import partners from '../../data_testing/partners.json'
-import BannerContainer from './BannerContainer'
+import partners from '../../data_testing/fretora.partners.json'
+import BannerContainer from '../../components/BannerContainer'
 import BannerSlide from '../../components/BannerSlide'
 
 export default function HomePage() {
@@ -19,9 +19,10 @@ export default function HomePage() {
       <section>
         <BannerContainer>
           <BannerSlide
-            imageAlt="Fretora Portada"
+            imageAlt="Fretora Banner"
             imageSrc="https://res.cloudinary.com/dgbzqgmvn/image/upload/v1727568363/BannerCover1_xwsrdp.jpg"
             imageTitle="Fretora: Ignite Your Passion for Guitar"
+            homePage={true}
           ></BannerSlide>
           <FeaturedProductVideo
             videoSrc={video}

@@ -35,3 +35,7 @@
 div:has(> .banner-container) {
   height: 100%;
 }
+
+.banner-container > div {
+  max-width: 100% !important;
+}

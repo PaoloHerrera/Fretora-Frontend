@@ -2,84 +2,90 @@
   {
     "id": "abbda9ee-4d47-4aa1-b271-97f7a941b8dc",
     "name": "Ibanez",
-    "type": ["Electrics", "Acoustics", "Amps", "Pedals & Effects"],
+    "categories": ["Electrics", "Acoustics", "Amps", "Pedals & Effects"],
     "logo": "https://res.cloudinary.com/dgbzqgmvn/image/upload/v1727055036/Ibanez_lttr4u.png",
     "url": "/ibanez"
   },
   {
     "id": "374eaaca-a4a7-40fd-b6c5-8010a6959c10",
     "name": "Gibson",
-    "type": ["Electrics", "Acoustics", "Amps"],
+    "categories": ["Electrics", "Acoustics", "Amps"],
     "logo": "https://res.cloudinary.com/dgbzqgmvn/image/upload/v1727057875/gibson_qn1rgv.png",
     "url": "/gibson"
   },
   {
     "id": "49871864-f02d-46f1-9cec-001815419776",
     "name": "Fender",
-    "type": ["Electrics", "Electro Acoustics", "Acoustics", "Amps"],
+    "categories": ["Electrics", "Electro Acoustics", "Acoustics", "Amps"],
     "logo": "https://res.cloudinary.com/dgbzqgmvn/image/upload/v1727055036/Fender_qsajef.png",
-    "url": "/fender"
+    "banner_image": "https://res.cloudinary.com/dgbzqgmvn/image/upload/v1727660431/fender_gwcaeq.webp",
+    "url": "/fender",
+    "description": "The Fender story begins over 70 years ago in a small Fullerton, California workshop. A radio repairman by trade and inventor at heart, Leo Fender made the transition to musical instruments by default, tinkering with his friends’ faulty amps. In 1943, he teamed up with local musician and inventor Doc Kaufmann and formed K&F Manufacturing Corp, producing a limited run of amplifiers and lap steel guitars at the height of the Hawaiian music craze. When the two parted ways a few years later, Fender continued working under his own name, developing the original Princeton, Deluxe and Professional amps in 1946. Built with hardwood cabinets, Fender’s original “woodie” amps—as they’ve come to be known in collectors’ circles—were among the first products to bear the official Fender seal. In a new post-World War II era when rugged, reliable and suitably loud instrument amplification didn’t really exist, the simple and stylish woodies were by far the best amps of their time—and would go on to set the gold standard for guitar tone throughout the 60s, 70s and beyond.",
+    "instagram": "https://www.instagram.com/fender/",
+    "x": "https://x.com/Fender",
+    "youtube": "https://www.youtube.com/user/fendermusical",
+    "facebook": "https://www.facebook.com/Fender/"
   },
   {
     "id": "9fafe38c-91c8-4394-9a8d-c0db9bc497cd",
     "name": "Jackson",
-    "type": ["Electrics"],
+    "categories": ["Electrics"],
     "logo": "https://res.cloudinary.com/dgbzqgmvn/image/upload/v1727055036/jackson-guitars-logo_ysdlb5.png",
     "url": "/jackson"
   },
   {
     "id": "f7937ba7-be6b-4308-adaf-af94d63b14af",
     "name": "ESP",
-    "type": ["Electrics"],
+    "categories": ["Electrics"],
     "logo": "https://res.cloudinary.com/dgbzqgmvn/image/upload/v1727057245/esp_ikvn3c.png",
     "url": "/esp"
   },
   {
     "id": "af80833e-90a3-4117-895b-0dd5530731a8",
     "name": "LTD",
-    "type": ["Electrics"],
+    "categories": ["Electrics"],
     "logo": "https://res.cloudinary.com/dgbzqgmvn/image/upload/v1727055037/ltd_kptp4c.png",
     "url": "/ltd"
   },
   {
     "id": "6c43a03d-9a98-4516-b483-37dd45f1e483",
     "name": "Eko",
-    "type": ["Electrics", "Acoustics", "Amps"],
+    "categories": ["Electrics", "Acoustics", "Amps"],
     "logo": "https://res.cloudinary.com/dgbzqgmvn/image/upload/v1727055036/eko_rrk4tb.png",
     "url": "/eko"
   },
   {
     "id": "6c504ae7-2e73-4635-8233-20137930c082",
     "name": "Takamine",
-    "type": ["Electro Acoustics"],
+    "categories": ["Electro Acoustics"],
     "logo": "https://res.cloudinary.com/dgbzqgmvn/image/upload/v1727056078/takamine_lu9zz3.png",
     "url": "/takamine"
   },
   {
     "id": "7f7e9525-0417-4460-8b84-4b3683f79ba1",
     "name": "Yamaha",
-    "type": ["Electro Acoustics", "Acoustics"],
+    "categories": ["Electro Acoustics", "Acoustics"],
     "logo": "https://res.cloudinary.com/dgbzqgmvn/image/upload/v1727057331/yamaha-black-logo-png-image-701751694774658yftuzaicev_hkktcr.png",
     "url": "/yamaha"
   },
   {
     "id": "5aa22015-4bc5-49d5-a551-1da66823a376",
     "name": "Marshall",
-    "type": ["Amps"],
+    "categories": ["Amps"],
     "logo": "https://res.cloudinary.com/dgbzqgmvn/image/upload/v1727055036/marshall_kwxeyu.png",
     "url": "/marshall"
   },
   {
     "id": "3a99b16a-23dd-4402-8501-887e300737be",
     "name": "Boss",
-    "type": ["Amps", "Pedals & Effects"],
+    "categories": ["Amps", "Pedals & Effects"],
     "logo": "https://res.cloudinary.com/dgbzqgmvn/image/upload/v1727055036/boss-katana_1_ocwegp.png",
     "url": "/boss"
   },
   {
     "id": "f28b605e-751b-49a6-b98b-c0afef6ca6b5",
     "name": "Vox",
-    "type": ["Amps", "Pedals & Effects"],
+    "categories": ["Amps", "Pedals & Effects"],
     "logo": "https://res.cloudinary.com/dgbzqgmvn/image/upload/v1727056077/Vox_c01b3c89-6b5a-4b2e-a6a3-20e0e1c19ce7_1080x_w9w7zw.png",
     "url": "/vox"
   }
