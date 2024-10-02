@@ -1,13 +1,11 @@
-import { Card, CardFooter, Image } from '@nextui-org/react'
-import Electric from '../assets/icons/electric-guitar.svg'
-import Acoustic from '../assets/icons/acoustic-guitar.svg'
-import Amp from '../assets/icons/amplifier-1.svg'
-import Pedal from '../assets/icons/guitar-pedal-1.svg'
 import PropTypes from 'prop-types'
-import { Link } from 'react-router-dom'
 import Slider from 'react-slick'
-
+import ProductCategoryCard from './ProductCategoryCard'
+import { useMemo } from 'react'
 export function ProductCategorySlider({ categories, brand }) {
+  const memoizedCategories = useMemo(() => categories, [categories])
+  const memoizedBrand = useMemo(() => brand, [brand])
+
   const settings = {
     dots: true,
     infinite: true,
@@ -18,6 +16,7 @@ export function ProductCategorySlider({ categories, brand }) {
     autoplaySpeed: 5000,
     cssEase: 'linear',
     initialSlide: 0,
+    arrows: false,
     responsive: [
       {
         breakpoint: 300,
@@ -33,116 +32,34 @@ export function ProductCategorySlider({ categories, brand }) {
   return (
     <>
       <div className="pl-6 pt-10 max-w-[320px]">
-        <Slider {...settings}>
-          {categories.map((category, index) => (
-            <Link
-              key={index}
-              to={`/${category.toLowerCase()}/${brand.toLowerCase()}`}
-            >
-              <article className="w-full flex place-content-center">
-                {(category == 'Electrics' && (
-                  <Card
-                    className="w-[100px]"
-                    isHoverable
-                    shadow="none"
-                    isPressable
-                  >
-                    <Image
-                      removeWrapper
-                      className="object-cover"
-                      src={Electric}
-                    ></Image>
-                    <CardFooter className="h-full">
-                      <div className="text-center font-bold justify-center text-gray-700 w-full">
-                        Electrics
-                      </div>
-                    </CardFooter>
-                  </Card>
-                )) ||
-                  (category == 'Electro Acoustics' && (
-                    <Card
-                      key={index}
-                      className="max-w-[100px]"
-                      isHoverable
-                      shadow="none"
-                      isPressable
-                    >
-                      <Image
-                        removeWrapper
-                        className="object-cover"
-                        src={Acoustic}
-                      ></Image>
-                      <CardFooter className="h-full">
-                        <div className="text-center font-bold justify-center text-gray-700 w-full">
-                          Electro Acoustics
-                        </div>
-                      </CardFooter>
-                    </Card>
-                  )) ||
-                  (category == 'Acoustics' && (
-                    <Card
-                      key={index}
-                      className="w-[100px]"
-                      isHoverable
-                      shadow="none"
-                      isPressable
-                    >
-                      <Image
-                        removeWrapper
-                        className="object-cover"
-                        src={Acoustic}
-                      ></Image>
-                      <CardFooter className="h-full">
-                        <div className="text-center font-bold justify-center text-gray-700 w-full">
-                          Acoustics
-                        </div>
-                      </CardFooter>
-                    </Card>
-                  )) ||
-                  (category == 'Amps' && (
-                    <Card
-                      key={index}
-                      className="w-[100px]"
-                      isHoverable
-                      shadow="none"
-                      isPressable
-                    >
-                      <Image
-                        removeWrapper
-                        className="object-cover"
-                        src={Amp}
-                      ></Image>
-                      <CardFooter className="h-full">
-                        <div className="text-center font-bold justify-center text-gray-700 w-full">
-                          Amps
-                        </div>
-                      </CardFooter>
-                    </Card>
-                  )) ||
-                  (category == 'Pedals & Effects' && (
-                    <Card
-                      key={index}
-                      className="w-[100px]"
-                      isHoverable
-                      shadow="none"
-                      isPressable
-                    >
-                      <Image
-                        removeWrapper
-                        className="object-cover"
-                        src={Pedal}
-                      ></Image>
-                      <CardFooter className="h-full">
-                        <div className="text-center font-bold justify-center text-gray-700 w-full">
-                          Pedals & Effects
-                        </div>
-                      </CardFooter>
-                    </Card>
-                  ))}
-              </article>
-            </Link>
-          ))}
-        </Slider>
+        {memoizedCategories.length > 2 && (
+          <Slider {...settings}>
+            {memoizedCategories.map((category, index) => (
+              <ProductCategoryCard
+                key={`${category}-${memoizedBrand}-${index}`}
+                categories={[category]}
+                brand={memoizedBrand}
+              />
+            ))}
+          </Slider>
+        )}
+        {memoizedCategories.length === 1 && (
+          <ProductCategoryCard
+            categories={[memoizedCategories[0]]}
+            brand={memoizedBrand}
+          />
+        )}
+        {memoizedCategories.length === 2 && (
+          <div className="flex gap-16">
+            {memoizedCategories.map((category, index) => (
+              <ProductCategoryCard
+                key={`${category}-${memoizedBrand}-${index}`}
+                categories={[category]}
+                brand={memoizedBrand}
+              />
+            ))}
+          </div>
+        )}
       </div>
     </>
   )

@@ -1,5 +1,5 @@
 import { useParams } from 'react-router-dom'
-import partners from '../../data_testing/fretora.partners.json'
+import brands from '../../data_testing/fretora.brands.json'
 import { Card, Button, Image } from '@nextui-org/react'
 import { Facebook, Instagram, X, YouTube } from '@mui/icons-material'
 import { Link } from 'react-router-dom'
@@ -8,21 +8,38 @@ import { ProductCategorySlider } from '../../components/ProductCategorySlider'
 export default function BrandPage() {
   const { brand } = useParams()
 
-  const partner = partners.filter(
+  const brandInfo = brands.filter(
     (item) => item.name.toLowerCase() === brand
   )[0]
 
   return (
     <>
       <section className="flex flex-col items-center">
-        <article className="grid grid-cols-12">
-          <Card className="w-full h-full min-h-[250px] sm:min-h-[300px] md:min-h-[500px] lg:min-h-[600px] col-span-12">
-            <Image
-              removeWrapper
-              src={partner.banner_image}
-              alt={`${partner.name} banner`}
-              className="w-full h-full object-cover object-left"
-            />
+        <article className="grid grid-cols-12 w-full">
+          <Card className="w-full h-full min-h-[100px] col-span-12 max-h-[750px]">
+            {brandInfo.banner_image_2 ? (
+              <>
+                <Image
+                  removeWrapper
+                  src={brandInfo.banner_image}
+                  alt={`${brandInfo.name} banner`}
+                  className="w-full h-full object-cover object-left md:hidden"
+                />
+                <Image
+                  removeWrapper
+                  src={brandInfo.banner_image_2}
+                  alt={`${brandInfo.name} banner`}
+                  className="w-full h-full object-cover md:block hidden"
+                />
+              </>
+            ) : (
+              <Image
+                removeWrapper
+                src={brandInfo.banner_image}
+                alt={`${brandInfo.name} banner`}
+                className="w-full h-full object-cover object-left"
+              />
+            )}
           </Card>
         </article>
       </section>
@@ -31,9 +48,9 @@ export default function BrandPage() {
         <article>
           <div className="pt-8 pl-6 pr-6">
             <h1 className="text-center text-3xl text-black font-bold">
-              About {partner.name}
+              About {brandInfo.name}
             </h1>
-            <p className="pt-6 text-gray-700">{partner.description}</p>
+            <p className="pt-6 text-gray-700">{brandInfo.description}</p>
           </div>
         </article>
       </section>
@@ -41,42 +58,50 @@ export default function BrandPage() {
       <section className="flex flex-col items-center">
         <div className="pt-6 flex flex-col gap-5 justify-center align-middle">
           <h2 className="text-center text-3xl text-black font-bold">
-            {partner.name} Products
+            {brandInfo.name} Categories
           </h2>
         </div>
         <ProductCategorySlider
-          categories={partner.categories}
-          brand={partner.name}
+          categories={brandInfo.categories}
+          brand={brandInfo.name}
         />
       </section>
 
       <section className="flex flex-col items-center pt-10">
         <div className="flex pt-8 pl-6 pr-6 gap-2 items-center">
           <span className="text-black font-bold">
-            Follow {partner.name} social networks:
+            Follow {brandInfo.name} social networks:
           </span>
         </div>
         <div className="flex items-center gap-4 pt-2 pl-6 pr-6">
-          <Link to={partner.instagram}>
-            <Button isIconOnly variant="light">
-              <Instagram />
-            </Button>
-          </Link>
-          <Link to={partner.x}>
-            <Button isIconOnly variant="light">
-              <X />
-            </Button>
-          </Link>
-          <Link to={partner.youtube}>
-            <Button isIconOnly variant="light">
-              <YouTube />
-            </Button>
-          </Link>
-          <Link to={partner.facebook}>
-            <Button isIconOnly variant="light">
-              <Facebook />
-            </Button>
-          </Link>
+          {brandInfo.instagram && (
+            <Link to={brandInfo.instagram}>
+              <Button isIconOnly variant="light">
+                <Instagram />
+              </Button>
+            </Link>
+          )}
+          {brandInfo.x && (
+            <Link to={brandInfo.x}>
+              <Button isIconOnly variant="light">
+                <X />
+              </Button>
+            </Link>
+          )}
+          {brandInfo.youtube && (
+            <Link to={brandInfo.youtube}>
+              <Button isIconOnly variant="light">
+                <YouTube />
+              </Button>
+            </Link>
+          )}
+          {brandInfo.facebook && (
+            <Link to={brandInfo.facebook}>
+              <Button isIconOnly variant="light">
+                <Facebook />
+              </Button>
+            </Link>
+          )}
         </div>
       </section>
     </>
