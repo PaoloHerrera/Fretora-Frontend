@@ -60,14 +60,14 @@ export default function NavbarAnon() {
 
         <NavbarContent className="min-w-24 xl:hidden pr-3" justify="start">
           <Link to={'/'}>
-            <img src={logo} width="150" height="150" />
+            <img src={logo} width="150" height="150" alt="Fretora Logo" />
           </Link>
         </NavbarContent>
 
         <NavbarContent className="hidden xl:flex gap-4" justify="start">
           <NavbarBrand>
             <Link to={'/'}>
-              <img src={logo} width="150" height="150" />
+              <img src={logo} width="150" height="150" alt="Fretora Logo" />
             </Link>
           </NavbarBrand>
         </NavbarContent>
