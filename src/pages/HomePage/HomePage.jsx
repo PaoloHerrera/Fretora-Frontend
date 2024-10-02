@@ -8,8 +8,8 @@ import Sales from './Sales'
 import { Divider } from '@nextui-org/react'
 import top_picks from '../../data_testing/top.picks.json'
 import TopPicks from './TopPicks'
-import OurPartners from './OurPartners'
-import partners from '../../data_testing/fretora.partners.json'
+import OurBrands from './OurBrands'
+import brands from '../../data_testing/fretora.brands.json'
 import BannerContainer from '../../components/BannerContainer'
 import BannerSlide from '../../components/BannerSlide'
 
@@ -53,9 +53,9 @@ export default function HomePage() {
       <section>
         <div className="text-3xl font-bold pt-10 pl-6">
           <Divider></Divider>
-          <h2 className="text-center pt-10">FRETORA PARTNERS</h2>
+          <h2 className="text-center pt-10">OUR BRANDS</h2>
         </div>
-        <OurPartners partners={partners} />
+        <OurBrands brands={brands} />
       </section>
       <section>
         <div className="text-3xl font-bold pt-10 pl-6">
