@@ -11,7 +11,7 @@ export default function App() {
       <main>
         <Routes>
           <Route path="/" element={<HomePage />}></Route>
-          <Route path="/:brand" element={<BrandPage />}></Route>
+          <Route path="/brands/:brand" element={<BrandPage />}></Route>
           <Route
             path="/product/:type/:brand/:slug"
             element={<ProductDetailPage />}
