@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import {
-  Avatar,
   Navbar,
   NavbarBrand,
   NavbarMenuToggle,
@@ -58,13 +57,13 @@ export default function NavbarAnon() {
           />
         </NavbarContent>
 
-        <NavbarContent className="min-w-24 xl:hidden pr-3" justify="start">
+        <NavbarContent className="min-w-[100px] xl:hidden" justify="start">
           <Link to={'/'}>
             <img src={logo} width="150" height="150" alt="Fretora Logo" />
           </Link>
         </NavbarContent>
 
-        <NavbarContent className="hidden xl:flex gap-4" justify="start">
+        <NavbarContent className="hidden xl:flex gap-4 pl-20" justify="start">
           <NavbarBrand>
             <Link to={'/'}>
               <img src={logo} width="150" height="150" alt="Fretora Logo" />
@@ -94,7 +93,11 @@ export default function NavbarAnon() {
               key={`${item}-${index}`}
               className="justify-self-center hidden xl:flex"
             >
-              <Link to={item.path} aria-current="page" className="navbar-items">
+              <Link
+                to={item.path}
+                aria-current="page"
+                className="fretora-primary-color"
+              >
                 {item.name}
               </Link>
             </NavbarItem>
@@ -103,16 +106,12 @@ export default function NavbarAnon() {
 
         <NavbarContent
           justify="end"
-          className="xl:items-start xl:pt-6 max-w-30 min-w-20"
+          className="xl:items-start xl:pt-6 max-w-30 min-w-20 xl:pr-20"
         >
           <NavbarItem className="flex justify-self-end">
             <Button isIconOnly variant="light">
               <ShoppingCartOutlined />
             </Button>
-          </NavbarItem>
-          <Divider orientation="vertical" className="h-10" />
-          <NavbarItem>
-            <Avatar showFallback src="https://images.unsplash.com/broken" />
           </NavbarItem>
         </NavbarContent>
 
@@ -136,7 +135,11 @@ export default function NavbarAnon() {
           <Divider></Divider>
           {menuItems.map((item, index) => (
             <NavbarMenuItem key={`${item}-${index}`}>
-              <Link className="w-full navbar-items" to={item.path} size="lg">
+              <Link
+                className="w-full fretora-primary-color"
+                to={item.path}
+                size="lg"
+              >
                 {item.name}
               </Link>
             </NavbarMenuItem>
