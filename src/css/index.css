@@ -16,11 +16,16 @@ body {
   background-color: #141496;
 }
 
+.color-tertiary {
+  color: #fff;
+  background-color: #3b413c;
+}
+
 .text-color-white {
   color: #fff;
 }
 
-.navbar-items {
+.fretora-primary-color {
   color: #141496;
 }
 

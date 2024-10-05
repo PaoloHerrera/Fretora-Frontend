@@ -6,7 +6,7 @@ export default function ProductImage({ slug, url, brand, name, color }) {
   return (
     <AnimatePresence mode="wait">
       <motion.div
-        className="w-full h-[350px] relative"
+        className="w-full flex justify-center relative"
         key={slug} // Clave única para que Framer Motion detecte cambios
         initial={{ opacity: 0, scale: 0.9 }} // Comienza invisible y más pequeño
         animate={{ opacity: 1, scale: 1 }} // Termina visible y tamaño normal
@@ -17,7 +17,7 @@ export default function ProductImage({ slug, url, brand, name, color }) {
           src={url}
           alt={`${brand} ${name} ${color}`}
           isZoomed
-          className="w-full h-[350px] z-0"
+          className="w-full h-[350px] lg:h-[500px] z-0"
         ></Image>
       </motion.div>
     </AnimatePresence>

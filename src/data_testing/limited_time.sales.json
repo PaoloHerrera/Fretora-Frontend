@@ -3,10 +3,11 @@
   "model": "Blue Floral Pattern",
   "brand": "Ibanez",
   "type": "Electrics",
-  "image": "https://res.cloudinary.com/dgbzqgmvn/image/upload/v1726705259/ibanez-jem77p-bfp-blue-floral_dzvy0s.png",
+  "image": "https://res.cloudinary.com/dgbzqgmvn/image/upload/v1727912470/JEM77P_BFP_2_xswxcr.webp",
   "original_price": "1,599.99",
   "discount_price": "1,199.99",
   "expiration_offer": "2024-10-31T23:59:59Z",
   "time_zone": "UTC",
-  "currency": "USD"
+  "currency": "USD",
+  "slug": "jem77p-blue-floral-pattern"
 }
