@@ -32,14 +32,6 @@ export default function NavbarAnon() {
       name: 'Electro Acoustics',
       path: '/electro-acoustics',
     },
-    {
-      name: 'Amps',
-      path: '/amps',
-    },
-    {
-      name: 'Pedals & Effects',
-      path: '/pedals-effects',
-    },
   ]
 
   return (
