@@ -4,6 +4,8 @@ import { Card, Button, Image } from '@nextui-org/react'
 import { Facebook, Instagram, X, YouTube } from '@mui/icons-material'
 import { Link } from 'react-router-dom'
 import { ProductCategorySlider } from '../../components/ProductCategorySlider'
+import products from '../../data_testing/fretora.products.json'
+import ProductCard from '../../components/ProductCard'
 
 export default function BrandPage() {
   const { brand } = useParams()
@@ -11,6 +13,11 @@ export default function BrandPage() {
   const brandInfo = brands.filter(
     (item) => item.name.toLowerCase() === brand
   )[0]
+
+  const topPicks = products.filter(
+    (item) =>
+      item.brand.toLowerCase() === brand.toLowerCase() && item.top_pick == true
+  )
 
   return (
     <>
@@ -46,18 +53,33 @@ export default function BrandPage() {
 
       <section>
         <article>
-          <div className="pt-8 pl-6 pr-6">
-            <h1 className="text-center text-3xl text-black font-bold">
+          <div className="pt-10 pl-6 pr-6 max-w-[1200px] mx-auto lg:pt-20 md:pt-10 sm:pt-10">
+            <h1 className="text-center text-4xl fretora-primary-color font-bold">
               About {brandInfo.name}
             </h1>
-            <p className="pt-6 text-gray-700">{brandInfo.description}</p>
+            <p className="pt-6 text-gray-700 text-md lg:text-xl md:text-lg">
+              {brandInfo.description}
+            </p>
           </div>
         </article>
       </section>
 
-      <section className="flex flex-col items-center">
+      <section className="flex flex-col items-center pt-10">
         <div className="pt-6 flex flex-col gap-5 justify-center align-middle">
-          <h2 className="text-center text-3xl text-black font-bold">
+          <h2 className="text-center text-3xl fretora-primary-color font-bold">
+            {brandInfo.name} Top Picks
+          </h2>
+        </div>
+        <div className="grid grid-cols-2 w-full max-w-[1200px] lg:grid-cols-4 gap-5 pt-10 pl-6 pr-6">
+          {topPicks.map((top) => (
+            <ProductCard key={top.id} product={top}></ProductCard>
+          ))}
+        </div>
+      </section>
+
+      <section className="flex flex-col items-center pt-10">
+        <div className="pt-6 flex flex-col gap-5 justify-center align-middle">
+          <h2 className="text-center text-3xl fretora-primary-color font-bold">
             {brandInfo.name} Categories
           </h2>
         </div>
