@@ -10,12 +10,13 @@ import PropTypes from 'prop-types'
 import FlipClockCountdown from '@leenguyen/react-flip-clock-countdown'
 import '@leenguyen/react-flip-clock-countdown/dist/index.css'
 import ProductCard from '../../components/ProductCard'
+import { Link } from 'react-router-dom'
 
 export default function Sales({ limitedTimeSale, offers }) {
   return (
-    <div className="pt-10 pl-6 pr-6">
-      <div className="grid grid-cols-2 lg:grid-cols-4 grid-rows-2 sm:gap-10 gap-2">
-        <Card className="col-span-2 lg:col-span-2 row-span-2 relative">
+    <div className="pt-10 pl-6 pr-6 flex justify-center">
+      <div className="grid grid-cols-2 lg:grid-cols-4 grid-rows-2 sm:gap-10 gap-2 lg:max-w-[1400px] max-w-[300px]">
+        <Card className="col-span-2 lg:col-span-4 row-span-2 relative max-w-[700px] place-self-center">
           <CardHeader className="flex justify-center flex-col pt-10">
             <div className="limited-badge">Offer Expires In...</div>
             <FlipClockCountdown
@@ -55,9 +56,13 @@ export default function Sales({ limitedTimeSale, offers }) {
             <p className="line-through ml-3 text-md">
               ${limitedTimeSale.original_price}
             </p>
-            <Button className="color-secondary mt-3" size="md">
-              View More
-            </Button>
+            <Link
+              to={`/product/${limitedTimeSale.type.split(' ')[0].toLowerCase()}/${limitedTimeSale.brand.toLowerCase()}/${limitedTimeSale.slug}`}
+            >
+              <Button className="color-secondary mt-3" size="md">
+                View More
+              </Button>
+            </Link>
           </CardFooter>
         </Card>
         {offers.map((item) => (
@@ -80,12 +85,13 @@ Sales.propTypes = {
     expiration_offer: PropTypes.string.isRequired,
     time_zone: PropTypes.string.isRequired,
     currency: PropTypes.string.isRequired,
+    slug: PropTypes.string.isRequired,
   }).isRequired,
   offers: PropTypes.arrayOf(
     PropTypes.shape({
       id: PropTypes.string.isRequired,
       name: PropTypes.string.isRequired,
-      model: PropTypes.string.isRequired,
+      specification: PropTypes.string.isRequired,
       brand: PropTypes.string.isRequired,
       type: PropTypes.string.isRequired,
       image: PropTypes.string.isRequired,

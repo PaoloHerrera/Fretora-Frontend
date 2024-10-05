@@ -2,7 +2,7 @@
   {
     "id": "abbda9ee-4d47-4aa1-b271-97f7a941b8dc",
     "name": "Ibanez",
-    "categories": ["Electrics", "Acoustics", "Amps", "Pedals & Effects"],
+    "categories": ["Electrics", "Electro Acoustics", "Acoustics"],
     "logo": "https://res.cloudinary.com/dgbzqgmvn/image/upload/v1727055036/Ibanez_lttr4u.png",
     "banner_image": "https://res.cloudinary.com/dgbzqgmvn/image/upload/v1727813398/385062102_860597732104506_8101204990520925388_n_gxgtho.jpg",
     "description": "The Ibanez story begins in Nagoya, Japan’s fourth most populous city and one of its key trade ports. Also based in Nagoya was Hoshino Shoten, a bookstore chain that – due to the increased demand for Western instruments as a result of the Westernisation of Japan in the late 19th and early 20th century – established a musical instrument division, Hoshino Gakki (‘gakki’ means ‘musical instrument’ in Japanese), to import high-end classical guitars to the country. From the late 1920s onwards, Hoshino Gakki began importing instruments crafted by a legendary Spanish master luthier by the name of Salvador Ibanez. Now, Hoshino Gakki wasn’t the only company to import Ibanez’s instruments – several others did, most notably Yamaha – but in the 1930s Hoshino Gakki did something that would bind the two names together forever more. In 1935 the bods at Hoshino Gakki decided that instead of simply importing instruments from Spain, they would begin to craft their own guitars in Japan, and in honor of the master luthier who had inspired the instruments (and cynically, probably also because of his good reputation) , they were branded ‘Ibanez Salvador’, which then was shortened to simply Ibanez.",
@@ -14,7 +14,7 @@
   {
     "id": "374eaaca-a4a7-40fd-b6c5-8010a6959c10",
     "name": "Gibson",
-    "categories": ["Electrics", "Acoustics", "Amps"],
+    "categories": ["Electrics", "Acoustics"],
     "logo": "https://res.cloudinary.com/dgbzqgmvn/image/upload/v1727057875/gibson_qn1rgv.png",
     "banner_image": "https://res.cloudinary.com/dgbzqgmvn/image/upload/v1727738231/Gibson-Guitars-Page-Banner-2_lhrcdu.jpg",
     "description": "Gibson Inc., the world’s most iconic guitar brand, has shaped the sounds of generations of musicians and music lovers across genres for more than 100 years. Founded in 1894 and headquartered in Nashville, TN, Gibson has a legacy of world-class craftsmanship, legendary music partnerships, and progressive product evolution that is unrivaled among musical instrument companies. The Gibson portfolio includes Gibson, the number one guitar brand, as well as many of the most beloved and recognizable music brands, including Epiphone, Kramer, Steinberger, MESA/Boogie, and the Gibson Pro Audio division, KRK Systems. Gibson is dedicated to quality, innovation, and sound excellence so that music lovers for generations to come will continue to experience music shaped by Gibson. ",
@@ -26,7 +26,7 @@
   {
     "id": "49871864-f02d-46f1-9cec-001815419776",
     "name": "Fender",
-    "categories": ["Electrics", "Electro Acoustics", "Acoustics", "Amps"],
+    "categories": ["Electrics", "Electro Acoustics", "Acoustics"],
     "logo": "https://res.cloudinary.com/dgbzqgmvn/image/upload/v1727055036/Fender_qsajef.png",
     "banner_image": "https://res.cloudinary.com/dgbzqgmvn/image/upload/v1727660431/fender_gwcaeq.webp",
     "description": "The Fender story begins over 70 years ago in a small Fullerton, California workshop. A radio repairman by trade and inventor at heart, Leo Fender made the transition to musical instruments by default, tinkering with his friends’ faulty amps. In 1943, he teamed up with local musician and inventor Doc Kaufmann and formed K&F Manufacturing Corp, producing a limited run of amplifiers and lap steel guitars at the height of the Hawaiian music craze. When the two parted ways a few years later, Fender continued working under his own name, developing the original Princeton, Deluxe and Professional amps in 1946. Built with hardwood cabinets, Fender’s original “woodie” amps—as they’ve come to be known in collectors’ circles—were among the first products to bear the official Fender seal. In a new post-World War II era when rugged, reliable and suitably loud instrument amplification didn’t really exist, the simple and stylish woodies were by far the best amps of their time—and would go on to set the gold standard for guitar tone throughout the 60s, 70s and beyond.",
@@ -75,7 +75,7 @@
   {
     "id": "6c43a03d-9a98-4516-b483-37dd45f1e483",
     "name": "Eko",
-    "categories": ["Electrics", "Acoustics", "Amps"],
+    "categories": ["Electrics", "Acoustics"],
     "logo": "https://res.cloudinary.com/dgbzqgmvn/image/upload/v1727055036/eko_rrk4tb.png",
     "banner_image": "https://res.cloudinary.com/dgbzqgmvn/image/upload/v1727812090/125f240406307e86944af329408638c8_fkgaks.png",
     "banner_image_2": "https://res.cloudinary.com/dgbzqgmvn/image/upload/v1727813236/eko_-_banner_1_t23snf.webp",
@@ -108,41 +108,5 @@
     "x": "https://x.com/YamahaGuitars",
     "youtube": "https://www.youtube.com/channel/UCN7dwqaiUXX2u7igKD7En-A",
     "facebook": "https://www.facebook.com/YamahaGuitarsOfficial/"
-  },
-  {
-    "id": "5aa22015-4bc5-49d5-a551-1da66823a376",
-    "name": "Marshall",
-    "categories": ["Amps"],
-    "logo": "https://res.cloudinary.com/dgbzqgmvn/image/upload/v1727055036/marshall_kwxeyu.png",
-    "banner_image": "https://res.cloudinary.com/dgbzqgmvn/image/upload/v1727835599/marshall_banner_qkwcqi.jpg",
-    "description": "The 1960s were a pivotal time for Britain's music scene, and Marshall played a crucial role in shaping the sonic landscape. As bands like The Beatles, The Rolling Stones, and The Who rose to prominence, Marshall amplifiers became synonymous with the powerful, iconic sound that defined the era, solidifying their place as a cornerstone in the history of British rock music.",
-    "instagram": "https://www.instagram.com/marshallamps/",
-    "x": "https://x.com/marshallamps",
-    "youtube": "",
-    "facebook": "https://www.facebook.com/marshallamps/"
-  },
-  {
-    "id": "3a99b16a-23dd-4402-8501-887e300737be",
-    "name": "Boss",
-    "categories": ["Amps", "Pedals & Effects"],
-    "logo": "https://res.cloudinary.com/dgbzqgmvn/image/upload/v1727055036/boss-katana_1_ocwegp.png",
-    "banner_image": "https://res.cloudinary.com/dgbzqgmvn/image/upload/v1727839012/Boss-brandpage-banner_mrdt4q.png",
-    "description": "The earliest Boss product was called B-100 The Boss, released in 1974. This came with a clip-on pre-amp and a pickup to amplify acoustic guitars. At this point the Boss company had not been formed and it was still a Beckmen Musical Instruments product (as seen on the B-100 box). The first proper Boss foot pedal effect, the CE-1 Chorus Ensemble, was released June 1976, which was a stand-alone unit of the chorus/vibrato circuit found in the Roland JC-120 amplifier. It was a fairly large, AC-powered unit. Other foot pedals of that year are the GE-10 (a graphic equalizer), the BF-1 (a flanger unit) and the DB-5 (a distortion unit). Boss's line of compact pedals began in 1977 with the release of six pedals, all of them discontinued: an overdrive pedal (OD-1), a phaser pedal (PH-1), a parametric equalizer called the Spectrum (SP-1), a 6-band graphic equalizer (GE-6), a compressor pedal (CS-1) and an automatic wah pedal (TW-1). The Boss DS-1 was released the next year, in 1978. Their first compact chorus pedal (CE-2) came in 1979, and their first flanger pedal (BF-2) in 1980. In 1983 Boss released the DD-2 Digital Delay, the first mass-produced digital delay in a compact pedal format. The Metal Zone (MT-2) was released in 1991. In 1992 Boss released nine new pedals, including the Turbo Distortion (DS-2). The Heavy Metal (HM-2) distortion pedal was an integral part of the guitar sound of many styles of heavy metal music ever since. The pedals all share the same 'footprint', for compatibility with pedal boards.",
-    "instagram": "https://www.instagram.com/bossinfoglobal/",
-    "x": "https://twitter.com/bossinfoglobal",
-    "youtube": "https://www.youtube.com/user/BOSSchannel",
-    "facebook": "https://www.facebook.com/BOSSInfoGlobal"
-  },
-  {
-    "id": "f28b605e-751b-49a6-b98b-c0afef6ca6b5",
-    "name": "Vox",
-    "categories": ["Amps", "Pedals & Effects"],
-    "logo": "https://res.cloudinary.com/dgbzqgmvn/image/upload/v1727056077/Vox_c01b3c89-6b5a-4b2e-a6a3-20e0e1c19ce7_1080x_w9w7zw.png",
-    "banner_image": "https://res.cloudinary.com/dgbzqgmvn/image/upload/v1727841825/Vox_Header_2020_mv0ge1.webp",
-    "description": "Founded in 1947, Vox Amplification has built one of the most iconic names in the music world. World of Music proudly stocks a quality selection of Vox amps available for purchase online or in store. The company initially gained fame through their AC30 tube guitar amplifier and Vox Continental Electric Organ. The AC30 built upon their AC15 design, doubling the power and equipping it with two 12″ Celestion blue speakers. The legendary sound of Vox amps became a touchstone of the ‘British Invasion’ sound of The Beatles, The Kinks and The Rolling Stones and has since become the flagship sound of artists like Brian May (Queen), Tom Petty, Radiohead, REM and Wilco among countless others.",
-    "instagram": "https://www.instagram.com/voxamplification",
-    "x": "https://x.com/VOXamps",
-    "youtube": "http://www.youtube.com/user/VOXampsforever",
-    "facebook": "https://www.facebook.com/VOXAmplificationUSA"
   }
 ]
