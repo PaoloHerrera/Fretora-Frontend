@@ -1,3 +1,69 @@
+.rg-genesis-550-desert-sun-yellow :nth-child(2) {
+  background-color: #edf29a;
+}
+
+.rg-genesis-550-desert-sun-yellow:hover:not(.item-selected) :nth-child(2) {
+  background-color: #edf29a !important;
+  opacity: 0.7;
+}
+.rg-genesis-550-electric-blue :nth-child(2) {
+  background-color: #0892d0;
+}
+
+.rg-genesis-550-electric-blue:hover:not(.item-selected) :nth-child(2) {
+  background-color: #0892d0 !important;
+  opacity: 0.7;
+}
+
+.rg-genesis-550-purple-neon :nth-child(2) {
+  background-color: #bc13fe;
+}
+
+.rg-genesis-550-purple-neon:hover:not(.item-selected) :nth-child(2) {
+  background-color: #bc13fe !important;
+  opacity: 0.7;
+}
+
+.rg-genesis-550-black :nth-child(2) {
+  background-color: black;
+}
+
+.rg-genesis-550-black:hover:not(.item-selected) :nth-child(2) {
+  background-color: black;
+  opacity: 0.7;
+}
+
+.rg-genesis-550-road-flare-red :nth-child(2) {
+  background-color: #cc0000;
+}
+
+.rg-genesis-550-road-flare-red:hover:not(.item-selected) :nth-child(2) {
+  background-color: #cc0000;
+  opacity: 0.7;
+}
+
+.pgm50-black :nth-child(2) {
+  background-color: black;
+}
+
+.pgm50-black:hover:not(.item-select) :nth-child(2) {
+  background-color: black;
+  opacity: 0.7;
+}
+
+.tod10n-transparent-black-flat :nth-child(2) {
+  background-color: black;
+}
+
+.tod10n-transparent-black-flat:hover:not(.item-selected) :nth-child(2) {
+  background-color: black;
+  opacity: 0.7;
+}
+
+.jem77p-blue-floral-pattern :nth-child(2) {
+  background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1727912740/others_tk3qk9.jpg');
+}
+
 .american-performer-telecaster-vintage-white :nth-child(2) {
   background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1727315872/fen_vintage_white_lx3fyv.png');
 }
