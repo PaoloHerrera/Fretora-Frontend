@@ -4,8 +4,8 @@ import '../../css/TopPicks.css'
 
 export default function TopPicks({ products }) {
   return (
-    <div className="pt-10 pl-6 pr-6">
-      <div className="grid grid-cols-2 md:grid-cols-4 sm:gap-10 gap-2">
+    <div className="pt-10 pl-6 pr-6 flex justify-center">
+      <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 sm:gap-10 gap-2 lg:max-w-[1400px] max-w-[300px]">
         {products.map((item) => (
           <ProductCard product={item} key={item.id}></ProductCard>
         ))}
@@ -19,7 +19,7 @@ TopPicks.propTypes = {
     PropTypes.shape({
       id: PropTypes.string.isRequired,
       name: PropTypes.string.isRequired,
-      model: PropTypes.string.isRequired,
+      specification: PropTypes.string.isRequired,
       brand: PropTypes.string.isRequired,
       type: PropTypes.string.isRequired,
       image: PropTypes.string.isRequired,
