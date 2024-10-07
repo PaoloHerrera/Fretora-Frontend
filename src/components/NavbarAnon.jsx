@@ -64,7 +64,7 @@ export default function NavbarAnon() {
         </NavbarContent>
         <NavbarContent
           justify="center"
-          className="md:w-1/3 lg:w-1/2 xl:items-start xl:pt-6 xl:grid xl:grid-cols-5"
+          className="md:w-1/3 lg:w-1/2 xl:items-start xl:pt-6 xl:grid xl:grid-cols-3"
         >
           <Input
             classNames={{
@@ -83,7 +83,7 @@ export default function NavbarAnon() {
           {menuItems.map((item, index) => (
             <NavbarItem
               key={`${item}-${index}`}
-              className="justify-self-center hidden xl:flex"
+              className="justify-self-center hidden xl:flex col-span-1"
             >
               <Link
                 to={item.path}
