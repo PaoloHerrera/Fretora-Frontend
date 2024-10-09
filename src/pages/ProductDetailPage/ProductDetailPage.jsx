@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react'
 import { useParams, useNavigate } from 'react-router-dom'
-import products from '../../data_testing/fretora.products.json'
 import brands from '../../data_testing/fretora.brands.json'
 import { Radio, RadioGroup, Tab, Tabs } from '@nextui-org/react'
 import '../../css/ProductDetail.css'
@@ -11,51 +10,86 @@ import AddToCart from './AddToCart'
 import ProductDetail from './ProductDetail'
 import ProductSpecsTable from './ProductSpecsTable'
 import ProductSpecs from './ProductSpecs'
+import { shuffleArray, loadProducts } from '../../utils/utils'
+import ProductCardSlider from '../../components/ProductCardSlider'
 
 export default function ProductDetailPage() {
   const { type, brand, slug } = useParams()
 
   const [loading, setLoading] = useState(true)
+  const [products, setProducts] = useState([])
+
   const [product, setProduct] = useState(null)
   const [brandInfo, setBrandInfo] = useState(null)
 
-  const [allProducts, setAllProducts] = useState(null)
-  const [selected, setSelected] = useState(slug)
+  const [allNameProducts, setAllNameProducts] = useState(null)
+  const [recommendedProducts, setRecommendedProducts] = useState([])
+
+  const [selected, setSelected] = useState(null)
 
   const [orientation, setOrientation] = useState('vertical')
 
   const navigate = useNavigate()
 
   useEffect(() => {
-    const fetchProduct = () => {
-      const foundProduct = products.find(
-        (item) =>
-          item.type.toLowerCase().replace(' ', '') === type &&
-          item.brand.toLowerCase() === brand &&
-          item.slug === slug &&
-          item.in_stock
-      )
-      setProduct(foundProduct)
-
-      const foundBrandInfo = brands.find(
-        (item) => item.name.toLowerCase() === brand
-      )
-      setBrandInfo(foundBrandInfo)
-
-      if (typeof foundProduct !== 'undefined') {
-        const allFoundProducts = products.filter(
-          (item) => item.name === foundProduct.name && item.in_stock
-        )
-        setAllProducts(allFoundProducts)
+    if (brand) {
+      setLoading(true)
+      const loadBrandProducts = async () => {
+        try {
+          const productsData = await loadProducts(brand.toLocaleLowerCase())
+          setProducts(productsData)
+        } catch (error) {
+          console.error('Error loading products:', error)
+        } finally {
+          setLoading(false)
+        }
       }
+      loadBrandProducts()
     }
-    fetchProduct()
-
-    setLoading(false)
-  }, [type, brand, slug])
+  }, [brand])
 
   useEffect(() => {
-    navigate(`/product/${type}/${brand}/${selected}`)
+    setSelected(slug)
+  }, [slug])
+
+  useEffect(() => {
+    if (products.length === 0 || !slug) return
+
+    const foundProduct = products.find(
+      (item) =>
+        item.type.toLowerCase().replace(' ', '') === type &&
+        item.brand.toLowerCase() === brand &&
+        item.slug === slug &&
+        item.in_stock
+    )
+
+    const foundBrandInfo = brands.find(
+      (item) => item.name.toLowerCase() === brand
+    )
+    setBrandInfo(foundBrandInfo)
+
+    if (foundProduct) {
+      setProduct(foundProduct)
+
+      const allFoundNameProducts = products.filter(
+        (item) => item.name === foundProduct.name && item.in_stock
+      )
+      setAllNameProducts(allFoundNameProducts)
+
+      const allRecommendedProducts = products
+        .filter((item) => item.name !== foundProduct.name && item.in_stock)
+        .filter(
+          (obj, index, self) =>
+            index === self.findIndex((t) => t.name === obj.name)
+        )
+      setRecommendedProducts(shuffleArray(allRecommendedProducts).slice(0, 8))
+    }
+  }, [type, brand, slug, products])
+
+  useEffect(() => {
+    if (!selected || !products) return
+
+    navigate(`/product/${type}/${brand}/${selected}`, { replace: true })
     const foundProduct = products.find(
       (item) =>
         item.type.toLowerCase().replace(' ', '') === type &&
@@ -63,7 +97,7 @@ export default function ProductDetailPage() {
         item.slug === selected
     )
     setProduct(foundProduct)
-  }, [brand, navigate, selected, type])
+  }, [brand, navigate, products, selected, type])
 
   useEffect(() => {
     const updateOrientation = () => {
@@ -83,7 +117,7 @@ export default function ProductDetailPage() {
     }
   }, [])
 
-  if (loading)
+  if (loading) {
     return (
       <motion.div
         className="loading-container"
@@ -101,8 +135,11 @@ export default function ProductDetailPage() {
         <div>Loading...</div>
       </motion.div>
     )
+  }
 
-  if (!product || !allProducts) return <div> Product not found</div>
+  if (!product || !allNameProducts) {
+    return <div>Product not found</div>
+  }
 
   return (
     <motion.section
@@ -151,7 +188,7 @@ export default function ProductDetailPage() {
                 onValueChange={setSelected}
                 orientation={orientation}
               >
-                {allProducts.map((item) => (
+                {allNameProducts.map((item) => (
                   <Radio
                     key={item.id}
                     value={item.slug}
@@ -246,7 +283,7 @@ export default function ProductDetailPage() {
             </Tabs>
           </motion.div>
         </div>
-        <section className="hidden color-tertiary lg:block">
+        <section className="hidden color-tertiary lg:block pb-10">
           <div className="grid grid-cols-12 mt-10 ml-20">
             <div className="col-span-11 pl-6">
               <h2 className="text-3xl text-left font-bold pt-10">
@@ -259,11 +296,16 @@ export default function ProductDetailPage() {
       </article>
 
       <section className="hidden lg:block">
-        <div className="grid grid-cols-12 mt-10 ml-20">
-          <div className="col-span-11 pl-6">
+        <div className="flex flex-col gap-10 mt-10 ml-20">
+          <div className="pl-6">
             <h2 className="text-3xl text-left font-bold pt-10 text-black">
               Recommended For You
             </h2>
+          </div>
+          <div className="ml-3">
+            <ProductCardSlider
+              products={recommendedProducts}
+            ></ProductCardSlider>
           </div>
         </div>
       </section>
