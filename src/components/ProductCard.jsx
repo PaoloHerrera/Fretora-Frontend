@@ -13,8 +13,8 @@ export default function Products({ product }) {
   return (
     <>
       {product.in_stock && (
-        <article>
-          <Card shadow="sm">
+        <article className="mt-4 mb-4 ml-4 mr-4">
+          <Card shadow="sm" className="max-w-[340px]">
             <CardHeader className="flex flex-col pt-2">
               <div className="h-8">
                 {product.new_arrival && (
@@ -66,9 +66,10 @@ export default function Products({ product }) {
                 )}
                 <Link
                   to={`/product/${product.type.replace(' ', '').toLowerCase()}/${product.brand.toLowerCase()}/${product.slug}`}
+                  className="mt-3 rounded-medium"
                 >
-                  <Button className="color-secondary mt-3" size="md">
-                    View More
+                  <Button className="color-secondary" size="md" radius="md">
+                    View Product
                   </Button>
                 </Link>
               </div>
@@ -86,8 +87,10 @@ Products.propTypes = {
     name: PropTypes.string.isRequired,
     specification: PropTypes.string.isRequired,
     brand: PropTypes.string.isRequired,
+    fingerboard: PropTypes.string,
     type: PropTypes.string.isRequired,
     image: PropTypes.string.isRequired,
+    image_detail: PropTypes.string,
     original_price: PropTypes.string.isRequired,
     discount_price: PropTypes.string,
     expiration_offer: PropTypes.string,
@@ -98,6 +101,7 @@ Products.propTypes = {
     on_sale: PropTypes.bool.isRequired,
     new_arrival: PropTypes.bool.isRequired,
     best_seller: PropTypes.bool.isRequired,
+    top_pick: PropTypes.bool,
     slug: PropTypes.string.isRequired,
   }).isRequired,
 }
