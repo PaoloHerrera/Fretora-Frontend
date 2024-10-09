@@ -1,5 +1,5 @@
 import { Divider, Card, CardHeader, CardBody } from '@nextui-org/react'
-import { SnakeCaseToFirstLettersCase } from '../../utils/utils'
+import { snakeCaseToFirstLettersCase } from '../../utils/utils'
 import PropTypes from 'prop-types'
 
 export default function ProductSpecs({ specs, slug }) {
@@ -13,7 +13,7 @@ export default function ProductSpecs({ specs, slug }) {
           className="color-tertiary"
         >
           <CardHeader className="text-xl">
-            {SnakeCaseToFirstLettersCase(key)}
+            {snakeCaseToFirstLettersCase(key)}
           </CardHeader>
           <Divider />
           <CardBody className="text-sm">{specs[key]}</CardBody>

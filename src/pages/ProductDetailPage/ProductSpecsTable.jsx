@@ -6,7 +6,7 @@ import {
   TableCell,
   TableRow,
 } from '@nextui-org/react'
-import { SnakeCaseToFirstLettersCase } from '../../utils/utils'
+import { snakeCaseToFirstLettersCase } from '../../utils/utils'
 import PropTypes from 'prop-types'
 
 export default function ProductSpecsTable({ specs, brand, name, color, slug }) {
@@ -25,7 +25,7 @@ export default function ProductSpecsTable({ specs, brand, name, color, slug }) {
         {Object.keys(specs).map((key) => (
           <TableRow key={`${slug}-${key}`}>
             <TableCell className="font-bold text-black">
-              {SnakeCaseToFirstLettersCase(key)}
+              {snakeCaseToFirstLettersCase(key)}
             </TableCell>
             <TableCell className="text-black">{specs[key]}</TableCell>
           </TableRow>
