@@ -60,6 +60,203 @@
   opacity: 0.7;
 }
 
+.js140m-soda-blue :nth-child(2) {
+  background-color: #007cb3;
+}
+
+.js140m-soda-blue:hover:not(.item-selected) :nth-child(2) {
+  background-color: #007cb3;
+  opacity: 0.7;
+}
+
+.kikosp3-transparent-emerald-burst :nth-child(2) {
+  background-color: #247850;
+}
+
+.kikosp3-transparent-emerald-burst:hover:not(.item-selected) :nth-child(2) {
+  background-color: #247850;
+  opacity: 0.7;
+}
+
+.jiva10-deep-space-blonde :nth-child(2) {
+  background-color: #dcbd92;
+}
+
+.jiva10-deep-space-blonde:hover:not(.item-selected) :nth-child(2) {
+  background-color: #dcbd92;
+  opacity: 0.7;
+}
+
+.azes40-tungsten :nth-child(2) {
+  background-color: #606564;
+}
+
+.azes40-tungsten:hover:not(.item-selected) :nth-child(2) {
+  background-color: #606564;
+  opacity: 0.7;
+}
+
+.azes40-purist-blue :nth-child(2) {
+  background-color: #82eefd;
+}
+
+.azes40-purist-blue:hover:not(.item-selected) :nth-child(2) {
+  background-color: #82eefd;
+  opacity: 0.7;
+}
+
+.azes40-mint-green :nth-child(2) {
+  background-color: #adebb3;
+}
+
+.azes40-mint-green:hover:not(.item-selected) :nth-child(2) {
+  background-color: #adebb3;
+  opacity: 0.7;
+}
+
+.azes40-black :nth-child(2) {
+  background-color: black;
+}
+
+.azes40-black:hover:not(.item-selected) :nth-child(2) {
+  background-color: black;
+  opacity: 0.7;
+}
+
+.azes40-pastel-pink :nth-child(2) {
+  background-color: #ffc5d3;
+}
+
+.azes40-pastel-pink:hover:not(.item-selected) :nth-child(2) {
+  background-color: #ffc5d3;
+  opacity: 0.7;
+}
+
+.m80m-weathered-black :nth-child(2) {
+  background-color: #52575b;
+}
+
+.m80m-weathered-black:hover:not(.item-selected) :nth-child(2) {
+  background-color: #52575b;
+  opacity: 0.7;
+}
+
+.rga42fm-blue-lagoon-burst-flat :nth-child(2) {
+  background-color: #006282;
+}
+
+.rga42fm-blue-lagoon-burst-flat:hover:not(.item-selected) :nth-child(2) {
+  background-color: #006282;
+  opacity: 0.7;
+}
+
+.rga42fm-dragon-eye-burst-flat :nth-child(2) {
+  background-color: #8b4513;
+}
+
+.rga42fm-dragon-eye-burst-flat:hover:not(.item-selected) :nth-child(2) {
+  background-color: #8b4513;
+  opacity: 0.7;
+}
+
+.rga42fm-transparent-gray-flat :nth-child(2) {
+  background-color: #2d3436;
+}
+
+.rga42fm-transparent-gray-flat:hover:not(.item-selected) :nth-child(2) {
+  background-color: #2d3436;
+  opacity: 0.7;
+}
+
+.xptb720-black-flat :nth-child(2) {
+  background-color: black;
+}
+
+.xptb720-black-flat:hover:not(.item-selected) :nth-child(2) {
+  background-color: black;
+  opacity: 0.7;
+}
+
+.jsa20-vintage-burst-high-gloss :nth-child(2) {
+  background-color: #8b4513;
+}
+
+.jsa20-vintage-burst-high-gloss:hover:not(.item-selected) :nth-child(2) {
+  background-color: #8b4513;
+  opacity: 0.7;
+}
+.ga5fmtce-open-pore-blueberry :nth-child(2) {
+  background-color: #4f86f7;
+}
+
+.ga5fmtce-open-pore-blueberry:hover:not(.item-selected) :nth-child(2) {
+  background-color: #4f86f7;
+  opacity: 0.7;
+}
+
+.aeg70-purple-iris-burst-high-gloss :nth-child(2) {
+  background-color: #897cac;
+}
+
+.aeg70-purple-iris-burst-high-gloss:hover:not(.item-selected) :nth-child(2) {
+  background-color: #897cac;
+  opacity: 0.7;
+}
+.aeg70-transparent-charcoal-burst-high-gloss :nth-child(2) {
+  background-color: #212222;
+}
+
+.aeg70-transparent-charcoal-burst-high-gloss:hover:not(.item-selected)
+  :nth-child(2) {
+  background-color: #212222;
+  opacity: 0.7;
+}
+
+.aeg70-vintage-violin-high-gloss :nth-child(2) {
+  background-color: #8b4513;
+}
+
+.aeg70-vintage-violin-high-gloss:hover:not(.item-selected) :nth-child(2) {
+  background-color: #8b4513;
+  opacity: 0.7;
+}
+
+.pf15-natural-high-gloss :nth-child(2) {
+  background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1728431894/natural_rt122d.jpg');
+}
+
+.pf15-natural-high-gloss:hover:not(.item-selected) :nth-child(2) {
+  background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1728431894/natural_rt122d.jpg');
+  opacity: 0.7;
+}
+
+.pf15-black-high-gloss :nth-child(2) {
+  background-color: black;
+}
+
+.pf15-black-high-gloss:hover:not(.item-selected) :nth-child(2) {
+  background-color: black;
+  opacity: 0.7;
+}
+
+.aw84-weathered-black-open-pore :nth-child(2) {
+  background-color: black;
+}
+
+.aw84-weathered-black-open-pore:hover:not(.item-selected) :nth-child(2) {
+  background-color: black;
+  opacity: 0.7;
+}
+
+.ac340-open-pore-natural :nth-child(2) {
+  background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1728431894/natural_rt122d.jpg');
+}
+
+.ac340-open-pore-natural:hover:not(.item-selected) :nth-child(2) {
+  background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1728431894/natural_rt122d.jpg');
+  opacity: 0.7;
+}
+
 .jem77p-blue-floral-pattern :nth-child(2) {
   background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1727912740/others_tk3qk9.jpg');
 }
