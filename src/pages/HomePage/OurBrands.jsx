@@ -51,7 +51,7 @@ export default function OurBrands({ brands }) {
         {brands.map((item) => (
           <Link key={item.id} to={`/brands/${item.name.toLowerCase()}`}>
             <article>
-              <Card className="max-w-[140px] mb-4" isPressable>
+              <Card className="max-w-[140px] mb-4 mt-4" isPressable>
                 <Image
                   removeWrapper
                   src={item.logo}

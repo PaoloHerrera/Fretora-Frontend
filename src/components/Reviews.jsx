@@ -46,7 +46,7 @@ export default function Reviews({ reviews }) {
     <div className="review-carousel">
       <Slider arrows={false} {...settings}>
         {reviews.map((item, index) => (
-          <Card key={index} className="max-w-[340px]">
+          <Card key={index} className="max-w-[340px] mt-4">
             <CardHeader className="justify-between">
               <div className="flex gap-5">
                 <Avatar isBordered radius="full" size="md" src={item.avatar} />
