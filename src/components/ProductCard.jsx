@@ -14,7 +14,7 @@ export default function Products({ product }) {
     <>
       {product.in_stock && (
         <article className="mt-4 mb-4 ml-4 mr-4">
-          <Card shadow="sm" className="max-w-[340px]">
+          <Card shadow="sm" className="max-w-[340px] min-w-[250px]">
             <CardHeader className="flex flex-col pt-2">
               <div className="h-8">
                 {product.new_arrival && (
@@ -32,11 +32,11 @@ export default function Products({ product }) {
               <div className="max-h-32 text-center">
                 <h3 className="font-bold mt-3 text-lg">{product.brand}</h3>
                 <h4 className="text-center text-sm md:text-md">
-                  {product.name} -
+                  {product.name}
                 </h4>
-                <h4 className="text-center text-sm md:text-md">
+                <h5 className="text-center text-sm md:text-md">
                   {product.specification}
-                </h4>
+                </h5>
               </div>
             </CardHeader>
             <Image
@@ -44,7 +44,6 @@ export default function Products({ product }) {
               src={product.image}
               className="object-cover"
               alt={product.name}
-              isZoomed
             ></Image>
             <CardFooter className="flex flex-col">
               <Divider></Divider>
