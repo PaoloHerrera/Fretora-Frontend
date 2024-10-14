@@ -261,24 +261,670 @@
   background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1727912740/others_tk3qk9.jpg');
 }
 
+.jem77p-blue-floral-pattern:hover:not(.item-selected) :nth-child(2) {
+  background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1727912740/others_tk3qk9.jpg');
+  opacity: 0.7;
+}
+
 .american-performer-telecaster-vintage-white :nth-child(2) {
   background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1727315872/fen_vintage_white_lx3fyv.png');
+}
+
+.american-performer-telecaster-vintage-white:hover:not(.item-selected)
+  :nth-child(2) {
+  background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1727315872/fen_vintage_white_lx3fyv.png');
+  opacity: 0.7;
 }
 
 .american-performer-telecaster-honey-burst :nth-child(2) {
   background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1727315872/honey-burst_imh0a6.png');
 }
 
-.american-performer-telecaster-satin-sonic-blue :nth-child(2) {
-  background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1727315873/sonic-blue_eluw6b.png');
+.american-performer-telecaster-honey-burst:hover:not(.item-selected)
+  :nth-child(2) {
+  background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1727315872/honey-burst_imh0a6.png');
+  opacity: 0.7;
 }
 
 .american-performer-telecaster-satin-sonic-blue :nth-child(2) {
   background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1727315873/sonic-blue_eluw6b.png');
+}
+
+.american-performer-telecaster-satin-sonic-blue:hover:not(.item-selected)
+  :nth-child(2) {
+  background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1727315873/sonic-blue_eluw6b.png');
+  opacity: 0.7;
+}
+
+.james-burton-telecaster-red-paisley-flames :nth-child(2) {
+  background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1728781434/red-paisley-flames_tdnnry.png');
+}
+
+.james-burton-telecaster-red-paisley-flames:hover:not(.item-selected)
+  :nth-child(2) {
+  background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1728781434/red-paisley-flames_tdnnry.png');
+  opacity: 0.7;
+}
+
+.james-burton-telecaster-blue-paisley-flames :nth-child(2) {
+  background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1728781434/blue-paisley-flames_xrfcxo.png');
+}
+
+.james-burton-telecaster-blue-paisley-flames:hover:not(.item-selected)
+  :nth-child(2) {
+  background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1728781434/blue-paisley-flames_xrfcxo.png');
+  opacity: 0.7;
+}
+
+.player-II-telecaster-transparent-cherry :nth-child(2) {
+  background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1728783591/swatch_FEN_transparent-cherry-burst_mahogany_qrvw6z.png');
+}
+
+.player-II-telecaster-transparent-cherry:hover:not(.item-selected)
+  :nth-child(2) {
+  background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1728783591/swatch_FEN_transparent-cherry-burst_mahogany_qrvw6z.png');
+  opacity: 0.7;
+}
+
+.player-II-telecaster-polar-white :nth-child(2) {
+  background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1728783769/fen_polar_white_rxijpb.png');
+}
+
+.player-II-telecaster-polar-white:hover:not(.item-selected) :nth-child(2) {
+  background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1728783769/fen_polar_white_rxijpb.png');
+  opacity: 0.7;
+}
+
+.player-II-telecaster-aquatone-blue :nth-child(2) {
+  background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1728784095/swatch_FEN_Aquatone-Blue_e0yt4h.png');
+}
+
+.player-II-telecaster-aquatone-blue:hover:not(.item-selected) :nth-child(2) {
+  background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1728784095/swatch_FEN_Aquatone-Blue_e0yt4h.png');
+  opacity: 0.7;
+}
+
+.player-II-telecaster-black :nth-child(2) {
+  background-color: black;
+}
+
+.player-II-telecaster-black:hover:not(.item-selected) :nth-child(2) {
+  background-color: black;
+  opacity: 0.7;
+}
+
+.player-II-telecaster-butterscotch-blonde :nth-child(2) {
+  background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1728784392/butterscotch-blonde_s9kaec.png');
+}
+
+.player-II-telecaster-butterscotch-blonde:hover:not(.item-selected)
+  :nth-child(2) {
+  background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1728784392/butterscotch-blonde_s9kaec.png');
+  opacity: 0.7;
+}
+
+.player-II-telecaster-coral-red :nth-child(2) {
+  background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1728784425/swatch_FEN_coral-red_r3a5qq.png');
+}
+
+.player-II-telecaster-coral-red:hover:not(.item-selected) :nth-child(2) {
+  background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1728784425/swatch_FEN_coral-red_r3a5qq.png');
+  opacity: 0.7;
+}
+
+.player-II-telecaster-hh-hialeah-yellow :nth-child(2) {
+  background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1728785314/swatch_FEN_hialeah-yellow_tvyy0n.png');
+}
+
+.player-II-telecaster-hh-hialeah-yellow:hover:not(.item-selected):nth-child(2) {
+  background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1728785314/swatch_FEN_hialeah-yellow_tvyy0n.png');
+  opacity: 0.7;
+}
+
+.player-II-telecaster-hh-aquatone-blue :nth-child(2) {
+  background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1728784095/swatch_FEN_Aquatone-Blue_e0yt4h.png');
+}
+
+.player-II-telecaster-hh-aquatone-blue:hover:not(.item-selected) :nth-child(2) {
+  background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1728784095/swatch_FEN_Aquatone-Blue_e0yt4h.png');
+  opacity: 0.7;
+}
+
+.player-II-telecaster-hh-3-color-sunburst :nth-child(2) {
+  background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1728785445/swatch_fen_3-color-sunburst_vedz4x.png');
+}
+
+.player-II-telecaster-hh-3-color-sunburst:hover:not(.item-selected)
+  :nth-child(2) {
+  background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1728785445/swatch_fen_3-color-sunburst_vedz4x.png');
+  opacity: 0.7;
+}
+
+.player-II-telecaster-hh-coral-red :nth-child(2) {
+  background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1728784425/swatch_FEN_coral-red_r3a5qq.png');
+}
+
+.player-II-telecaster-hh-coral-red:hover:not(.item-selected) :nth-child(2) {
+  background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1728784425/swatch_FEN_coral-red_r3a5qq.png');
+  opacity: 0.7;
+}
+
+.player-II-telecaster-hh-black :nth-child(2) {
+  background-color: black;
+}
+
+.player-II-telecaster-hh-black:hover:not(.item-selected) :nth-child(2) {
+  background-color: black;
+  opacity: 0.7;
+}
+
+.american-professional-II-stratocaster-natural :nth-child(2) {
+  background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1728774370/swatch_fen_natural_roasted_pine_xn4ap9.png');
+}
+
+.american-professional-II-stratocaster-natural:hover:not(.item-selected)
+  :nth-child(2) {
+  background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1728774370/swatch_fen_natural_roasted_pine_xn4ap9.png');
+  opacity: 0.7;
+}
+
+.american-professional-II-stratocaster-mercury :nth-child(2) {
+  background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1728590019/swatch_fen_mercury_qx2qfp.png');
+}
+
+.american-professional-II-stratocaster-mercury:hover:not(.item-selected)
+  :nth-child(2) {
+  background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1728590019/swatch_fen_mercury_qx2qfp.png');
+  opacity: 0.7;
+}
+
+.american-professional-II-stratocaster-dark-night :nth-child(2) {
+  background-color: #151931;
+}
+
+.american-professional-II-stratocaster-dark-night:hover:not(.item-selected)
+  :nth-child(2) {
+  background-color: #151931;
+  opacity: 0.7;
+}
+
+.american-professional-II-stratocaster-mystic-surf-green :nth-child(2) {
+  background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1728591014/swatch_fen_mystic_surf_green_lusxvg.png');
+}
+
+.american-professional-II-stratocaster-mystic-surf-green
+  :hover:not(.item-selected)
+  :nth-child(2) {
+  background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1728591014/swatch_fen_mystic_surf_green_lusxvg.png');
+  opacity: 0.7;
+}
+
+.american-professional-II-stratocaster-miami-blue :nth-child(2) {
+  background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1728589560/swatch_fen_miami_blue_in4bww.png');
+}
+
+.american-professional-II-stratocaster-miami-blue:hover:not(.item-selected)
+  :nth-child(2) {
+  background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1728589560/swatch_fen_miami_blue_in4bww.png');
+  opacity: 0.7;
+}
+
+.american-professional-II-stratocaster-black :nth-child(2) {
+  background-color: black;
+}
+
+.american-professional-II-stratocaster-black:hover:not(.item-selected)
+  :nth-child(2) {
+  background-color: black;
+  opacity: 0.7;
+}
+
+.american-professional-II-stratocaster-hss-dark-night :nth-child(2) {
+  background-color: #151931;
+}
+
+.american-professional-II-stratocaster-hss-dark-night:hover:not(.item-selected)
+  :nth-child(2) {
+  background-color: #151931;
+  opacity: 0.7;
+}
+
+.american-professional-II-stratocaster-hss-miami-blue :nth-child(2) {
+  background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1728589560/swatch_fen_miami_blue_in4bww.png');
+}
+
+.american-professional-II-stratocaster-hss-miami-blue:hover:not(.item-selected)
+  :nth-child(2) {
+  background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1728589560/swatch_fen_miami_blue_in4bww.png');
+  opacity: 0.7;
+}
+
+.american-professional-II-stratocaster-hss-mercury :nth-child(2) {
+  background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1728590019/swatch_fen_mercury_qx2qfp.png');
+}
+
+.american-professional-II-stratocaster-hss-mercury:hover:not(.item-selected)
+  :nth-child(2) {
+  background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1728590019/swatch_fen_mercury_qx2qfp.png');
+  opacity: 0.7;
+}
+
+.american-professional-II-stratocaster-hss-3-color-sunburst :nth-child(2) {
+  background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1728590108/3-color-sunburst_nyq6dm.png');
+}
+
+.american-professional-II-stratocaster-hss-3-color-sunburst:hover:not(
+    .item-selected
+  )
+  :nth-child(2) {
+  background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1728590108/3-color-sunburst_nyq6dm.png');
+  opacity: 0.7;
+}
+
+.american-professional-II-stratocaster-hss-olympic-white :nth-child(2) {
+  background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1728590336/olympic-white_rgopk5.png');
+}
+
+.american-professional-II-stratocaster-hss-olympic-white:hover:not(
+    .item-selected
+  )
+  :nth-child(2) {
+  background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1728590336/olympic-white_rgopk5.png');
+  opacity: 0.7;
+}
+
+.american-professional-II-stratocaster-hss-mystic-surf-green :nth-child(2) {
+  background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1728591014/swatch_fen_mystic_surf_green_lusxvg.png');
+}
+
+.american-professional-II-stratocaster-hss-mystic-surf-green:hover:not(
+    .item-selected
+  )
+  :nth-child(2) {
+  background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1728591014/swatch_fen_mystic_surf_green_lusxvg.png');
+  opacity: 0.7;
+}
+
+.tom-delonge-stratocaster-black :nth-child(2) {
+  background-color: black;
+}
+
+.tom-delonge-stratocaster-black:hover:not(.item-selected) :nth-child(2) {
+  background-color: black;
+  opacity: 0.7;
+}
+
+.tom-delonge-stratocaster-surf-green :nth-child(2) {
+  background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1728777735/surf-green_kzwwa7.png');
+}
+
+.tom-delonge-stratocaster-surf-green:hover:not(.item-selected) :nth-child(2) {
+  background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1728777735/surf-green_kzwwa7.png');
+  opacity: 0.7;
+}
+
+.tom-delonge-stratocaster-daphne-blue :nth-child(2) {
+  background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1728777880/daphne-blue_ejrgsp.png');
+}
+
+.tom-delonge-stratocaster-daphne-blue:hover:not(.item-selected) :nth-child(2) {
+  background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1728777880/daphne-blue_ejrgsp.png');
+  opacity: 0.7;
+}
+
+.tom-delonge-stratocaster-graffiti-yellow :nth-child(2) {
+  background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1728778068/swatch_fen_graffiti-yellow_medq97.png');
+}
+
+.tom-delonge-stratocaster-graffiti-yellow:hover:not(.item-selected)
+  :nth-child(2) {
+  background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1728778068/swatch_fen_graffiti-yellow_medq97.png');
+  opacity: 0.7;
+}
+
+.eric-johnson-stratocaster-maple-white-blonde :nth-child(2) {
+  background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1728787520/white-blonde_mjmiia.png');
+}
+
+.eric-johnson-stratocaster-maple-white-blonde:hover:not(.item-selected)
+  :nth-child(2) {
+  background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1728787520/white-blonde_mjmiia.png');
+  opacity: 0.7;
+}
+
+.eric-johnson-stratocaster-maple-2-color-sunburst :nth-child(2) {
+  background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1728787630/2-color-sunburst_ctdpzp.png');
+}
+
+.eric-johnson-stratocaster-maple-2-color-sunburst:hover:not(.item-selected)
+  :nth-child(2) {
+  background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1728787630/2-color-sunburst_ctdpzp.png');
+  opacity: 0.7;
+}
+
+.player-jaguar-tidepool :nth-child(2) {
+  background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1728779002/fen_tidepool_krywp7.png');
+}
+
+.player-jaguar-tidepool:hover:not(.item-selected) :nth-child(2) {
+  background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1728779002/fen_tidepool_krywp7.png');
+  opacity: 0.7;
+}
+
+.american-vintage-II-1966-jazzmaster-dakota-red :nth-child(2) {
+  background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1728788467/dakota-red_teknoe.png');
+}
+
+.american-vintage-II-1966-jazzmaster-dakota-red:hover:not(.item-selected)
+  :nth-child(2) {
+  background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1728788467/dakota-red_teknoe.png');
+  opacity: 0.7;
+}
+
+.american-vintage-II-1966-jazzmaster-lake-placid-blue :nth-child(2) {
+  background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1728788562/lake-placid-blue_ewmihg.png');
+}
+
+.american-vintage-II-1966-jazzmaster-lake-placid-blue:hover:not(.item-selected)
+  :nth-child(2) {
+  background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1728788562/lake-placid-blue_ewmihg.png');
+  opacity: 0.7;
+}
+
+.american-vintage-II-1966-jazzmaster-3-color-sunburst :nth-child(2) {
+  background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1728785445/swatch_fen_3-color-sunburst_vedz4x.png');
+}
+
+.american-vintage-II-1966-jazzmaster-3-color-sunburst:hover:not(.item-selected)
+  :nth-child(2) {
+  background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1728785445/swatch_fen_3-color-sunburst_vedz4x.png');
+  opacity: 0.7;
+}
+
+.fa-15-3-4-steel-black :nth-child(2) {
+  background-color: black;
+}
+
+.fa-15-3-4-steel-black:hover:not(.item-selected) :nth-child(2) {
+  background-color: black;
+  opacity: 0.7;
+}
+
+.fa-15-3-4-steel-natural :nth-child(2) {
+  background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1728838099/natural_gtyfao.png');
+}
+
+.fa-15-3-4-steel-natural:hover:not(.item-selected) :nth-child(2) {
+  background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1728838099/natural_gtyfao.png');
+  opacity: 0.7;
+}
+
+.fa-15-3-4-steel-moonlight-burst :nth-child(2) {
+  background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1728838256/swatch_FEN_moonlight_burst_icywrm.png');
+}
+
+.fa-15-3-4-steel-moonlight-burst:hover:not(.item-selected) :nth-child(2) {
+  background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1728838256/swatch_FEN_moonlight_burst_icywrm.png');
+  opacity: 0.7;
+}
+
+.fa-15-3-4-steel-blue :nth-child(2) {
+  background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1728838372/swatch_FEN_blue_sapele_nbhguz.png');
+}
+
+.fa-15-3-4-steel-blue:hover:not(.item-selected) :nth-child(2) {
+  background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1728838372/swatch_FEN_blue_sapele_nbhguz.png');
+  opacity: 0.7;
+}
+
+.fa-15n-3-4-nylon-natural :nth-child(2) {
+  background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1728839016/fen_laminated_agathis_vpgyhc.png');
+}
+
+.fa-15n-3-4-nylon-natural:hover:not(.item-selected) :nth-child(2) {
+  background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1728839016/fen_laminated_agathis_vpgyhc.png');
+  opacity: 0.7;
+}
+
+.cd-60s-dreadnought-black :nth-child(2) {
+  background-color: black;
+}
+
+.cd-60s-dreadnought-black:hover:not(.item-selected) :nth-child(2) {
+  background-color: black;
+  opacity: 0.7;
+}
+
+.cd-60s-dreadnought-natural :nth-child(2) {
+  background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1728840313/0968604-natural_hgfdrr.png');
+}
+
+.cd-60s-dreadnought-natural:hover:not(.item-selected) :nth-child(2) {
+  background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1728840313/0968604-natural_hgfdrr.png');
+  opacity: 0.7;
+}
+
+.cp-60s-parlor-natural :nth-child(2) {
+  background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1728847386/Solid_Spruce_suksb2.png');
+}
+
+.cp-60s-parlor-natural:hover:not(.item-selected) :nth-child(2) {
+  background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1728847386/Solid_Spruce_suksb2.png');
+  opacity: 0.7;
+}
+
+.cp-60s-parlor-3-color-sunburst :nth-child(2) {
+  background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1728847669/096807-3-Color-Sunburst_bdd0bd.png');
+}
+
+.cp-60s-parlor-3-color-sunburst:hover:not(.item-selected) :nth-child(2) {
+  background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1728847669/096807-3-Color-Sunburst_bdd0bd.png');
+  opacity: 0.7;
+}
+
+.cc-60s-concert-natural :nth-child(2) {
+  background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1728849620/0961536-natural_ngbu1u.png');
+}
+
+.cc-60s-concert-natural:hover:not(.item-selected) :nth-child(2) {
+  background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1728849620/0961536-natural_ngbu1u.png');
+  opacity: 0.7;
+}
+
+.cc-60s-concert-3-color-sunburst :nth-child(2) {
+  background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1728849701/0962710232-sunburst_fnrxwy.png');
+}
+
+.cc-60s-concert-3-color-sunburst:hover:not(.item-selected) :nth-child(2) {
+  background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1728849701/0962710232-sunburst_fnrxwy.png');
+  opacity: 0.7;
+}
+
+.california-vintage-king-aged-natural :nth-child(2) {
+  background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1728854827/0955652-natural_z6axgy.png');
+}
+
+.california-vintage-king-aged-natural:hover:not(.item-selected) :nth-child(2) {
+  background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1728854827/0955652-natural_z6axgy.png');
+  opacity: 0.7;
+}
+
+.california-vintage-king-mojave :nth-child(2) {
+  background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1728855451/swatch_fen_mojave_qprq2p.png');
+}
+
+.california-vintage-king-mojave:hover:not(.item-selected) :nth-child(2) {
+  background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1728855451/swatch_fen_mojave_qprq2p.png');
+  opacity: 0.7;
+}
+
+.california-vintage-malibu-black :nth-child(2) {
+  background-color: black;
+}
+
+.california-vintage-malibu-black:hover:not(.item-selected) :nth-child(2) {
+  background-color: black;
+  opacity: 0.7;
+}
+.california-vintage-malibu-aged-natural :nth-child(2) {
+  background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1728854827/0955652-natural_z6axgy.png');
+}
+
+.california-vintage-malibu-aged-natural:hover:not(.item-selected)
+  :nth-child(2) {
+  background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1728854827/0955652-natural_z6axgy.png');
+  opacity: 0.7;
+}
+
+.american-acoustasonic-stratocaster-transparent-sonic-blue :nth-child(2) {
+  background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1728857935/sonic-blue_vb8m2b.png');
+}
+
+.american-acoustasonic-stratocaster-transparent-sonic-blue:hover:not(
+    .item-selected
+  )
+  :nth-child(2) {
+  background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1728857935/sonic-blue_vb8m2b.png');
+  opacity: 0.7;
+}
+
+.american-acoustasonic-stratocaster-natural :nth-child(2) {
+  background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1728858038/Solid_Sitka_Spruce_lwlw93.png');
+}
+
+.american-acoustasonic-stratocaster-natural:hover:not(.item-selected)
+  :nth-child(2) {
+  background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1728858038/Solid_Sitka_Spruce_lwlw93.png');
+  opacity: 0.7;
+}
+
+.american-acoustasonic-stratocaster-3-color-sunburst :nth-child(2) {
+  background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1728785445/swatch_fen_3-color-sunburst_vedz4x.png');
+}
+
+.american-acoustasonic-stratocaster-3-color-sunburst:hover:not(.item-selected)
+  :nth-child(2) {
+  background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1728785445/swatch_fen_3-color-sunburst_vedz4x.png');
+  opacity: 0.7;
+}
+
+.american-acoustasonic-stratocaster-black :nth-child(2) {
+  background-color: black;
+}
+
+.american-acoustasonic-stratocaster-black:hover:not(.item-selected)
+  :nth-child(2) {
+  background-color: black;
+  opacity: 0.7;
+}
+
+.american-acoustasonic-telecaster-black :nth-child(2) {
+  background-color: black;
+}
+
+.american-acoustasonic-telecaster-black:hover:not(.item-selected)
+  :nth-child(2) {
+  background-color: black;
+  opacity: 0.7;
+}
+
+.american-acoustasonic-telecaster-natural :nth-child(2) {
+  background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1728847386/Solid_Spruce_suksb2.png');
+}
+
+.american-acoustasonic-telecaster-natural:hover:not(.item-selected)
+  :nth-child(2) {
+  background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1728847386/Solid_Spruce_suksb2.png');
+  opacity: 0.7;
+}
+
+.american-acoustasonic-telecaster-sunburst :nth-child(2) {
+  background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1728859694/brown-sunburst_tm0j2n.png');
+}
+
+.american-acoustasonic-telecaster-sunburst:hover:not(.item-selected)
+  :nth-child(2) {
+  background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1728859694/brown-sunburst_tm0j2n.png');
+  opacity: 0.7;
+}
+
+.american-acoustasonic-telecaster-crimson-red :nth-child(2) {
+  background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1728859990/crimson-red-transparent_hezeds.png');
+}
+
+.american-acoustasonic-telecaster-crimson-red:hover:not(.item-selected)
+  :nth-child(2) {
+  background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1728859990/crimson-red-transparent_hezeds.png');
+  opacity: 0.7;
+}
+
+.american-acoustasonic-telecaster-steel-blue :nth-child(2) {
+  background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1728860043/swatch_fen_steel_blue_qz00ua.png');
+}
+
+.american-acoustasonic-telecaster-steel-blue:hover:not(.item-selected)
+  :nth-child(2) {
+  background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1728860043/swatch_fen_steel_blue_qz00ua.png');
+  opacity: 0.7;
+}
+
+.american-acoustasonic-jazzmaster-ocean-turquoise :nth-child(2) {
+  background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1728870388/swatch_fen_ocean_turquoise_li77nv.png');
+}
+
+.american-acoustasonic-jazzmaster-ocean-turquoise:hover:not(.item-selected)
+  :nth-child(2) {
+  background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1728870388/swatch_fen_ocean_turquoise_li77nv.png');
+  opacity: 0.7;
+}
+
+.american-acoustasonic-jazzmaster-natural :nth-child(2) {
+  background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1728870475/swatch_fen_ebony_fingerboard_mvqxfi.png');
+}
+
+.american-acoustasonic-jazzmaster-natural:hover:not(.item-selected)
+  :nth-child(2) {
+  background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1728870475/swatch_fen_ebony_fingerboard_mvqxfi.png');
+  opacity: 0.7;
+}
+
+.american-acoustasonic-jazzmaster-tungsten :nth-child(2) {
+  background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1728870932/swatch_fen_tungsten_mbndon.png');
+}
+
+.american-acoustasonic-jazzmaster-tungsten:hover:not(.item-selected)
+  :nth-child(2) {
+  background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1728870932/swatch_fen_tungsten_mbndon.png');
+  opacity: 0.7;
+}
+
+.american-acoustasonic-jazzmaster-tobacco-sunburst :nth-child(2) {
+  background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1728870932/swatch_fen_tobacco_sunburst_acoustasonic_hcn6db.png');
+}
+
+.american-acoustasonic-jazzmaster-tobacco-sunburst:hover:not(.item-selected)
+  :nth-child(2) {
+  background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1728870932/swatch_fen_tobacco_sunburst_acoustasonic_hcn6db.png');
+  opacity: 0.7;
+}
+
+.american-acoustasonic-jazzmaster-arctic-white :nth-child(2) {
+  background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1728870934/arctic-white_uowllx.png');
+}
+
+.american-acoustasonic-jazzmaster-arctic-white:hover:not(.item-selected)
+  :nth-child(2) {
+  background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1728870934/arctic-white_uowllx.png');
+  opacity: 0.7;
 }
 
 .sa-350-sunburst :nth-child(2) {
   background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1727633035/Antik-Sunburst-big_fuwki3.jpg');
+}
+
+.sa-350-sunburst:hover:not(.item-selected) :nth-child(2) {
+  background-image: url('https://res.cloudinary.com/dgbzqgmvn/image/upload/v1727633035/Antik-Sunburst-big_fuwki3.jpg');
+  opacity: 0.7;
 }
 
 .item-selected > span {

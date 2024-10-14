@@ -150,12 +150,12 @@ export default function ProductDetailPage() {
       className="mb-24"
     >
       <article>
-        <div className="grid grid-cols-8 lg:grid-cols-12 lg:ml-20 mt-10">
+        <div className="grid grid-cols-8 lg:ml-20 mt-10 lg:grid-cols-12">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
-            className="hidden lg:flex pl-6 place-self-start col-span-3"
+            className="hidden lg:flex pl-6 place-self-start col-span-4 xl:col-span-3"
           >
             <ProductDetail
               name={product.name}
@@ -168,7 +168,7 @@ export default function ProductDetailPage() {
               description={product.description}
             />
           </motion.div>
-          <div className="pt-10 pr-6 pl-6 text-center col-span-4 col-start-3 lg:col-start-4 lg:col-span-6">
+          <div className="pt-10 text-center col-span-4 col-start-3 lg:col-start-6 lg:col-span-3 xl:col-span-6">
             <ProductImage
               slug={product.slug}
               url={product.image_detail}
@@ -177,8 +177,8 @@ export default function ProductDetailPage() {
               color={product.color}
             />
           </div>
-          <div className="lg:col-span-3 justify-center lg:grid lg:grid-rows-4 lg:items-center">
-            <div className="font-bold text-black mb-3 text-center flex flex-col items-center pt-10 lg:row-start-2">
+          <div className="lg:col-span-4 justify-center lg:grid lg:grid-rows-4 lg:items-center xl:col-span-3">
+            <div className="font-bold text-black mb-3 text-center flex flex-col items-center pt-10 lg:row-start-2 gap-1">
               Select Color
               <RadioGroup
                 className="color-select pt-5"
@@ -194,7 +194,7 @@ export default function ProductDetailPage() {
                     value={item.slug}
                     className={
                       item.slug === selected
-                        ? `${item.slug} item-selected disable-hover`
+                        ? `${item.slug} item-selected`
                         : item.slug
                     }
                   ></Radio>
@@ -220,7 +220,7 @@ export default function ProductDetailPage() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5 }}
-              className="hidden w-full bg-white lg:block lg:row-start-4"
+              className="hidden w-full bg-white lg:block lg:row-start-4 text-center"
             >
               <AddToCart />
             </motion.div>

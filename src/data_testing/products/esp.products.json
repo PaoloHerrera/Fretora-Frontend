@@ -1,0 +1,42 @@
+[
+  {
+    "id": "409f6b42-ce9a-4f7e-ae2f-318b46f51f88",
+    "name": "Horizon-II",
+    "description": "Start with the elegant, flowing archtop curves of the famed ESP Horizon shape, and then present it in our new Black Adamantium finish that evokes post-apocalyptic weaponry.",
+    "color": "Black Adamamantium",
+    "specification": "Black Adamamantium",
+    "fingerboard": "Ebony",
+    "fingerboard_image": "",
+    "brand": "ESP",
+    "type": "Electrics",
+    "image": "https://res.cloudinary.com/dgbzqgmvn/image/upload/v1728517602/Horizon-II_BA_2_ny9nee.webp",
+    "image_detail": "https://res.cloudinary.com/dgbzqgmvn/image/upload/v1728517602/Horizon-II_BA_1_bs3gwz.webp",
+    "original_price": "4,799.00",
+    "discount_price": "4,299.00",
+    "expiration_offer": "2024-10-20T23:59:59Z",
+    "time_zone": "UTC",
+    "currency": "USD",
+    "stock": 12,
+    "in_stock": true,
+    "on_sale": true,
+    "new_arrival": false,
+    "best_seller": false,
+    "top_pick": false,
+    "slug": "horizon-II-black-adamantium",
+    "specs": {
+      "body_material": "Mahogany",
+      "body_finish": "Black Adamantium",
+      "body_top": "Maple",
+      "neck_material": "3Pc Maple",
+      "fingerboard_material": "Ebony",
+      "scale": "25.5\"",
+      "frets": "24 JESCAR FW57110 XJ Stainless",
+      "nut_type": "Graphite",
+      "neck_pickup": "Fishman Fluence Modern Humbucker Alnico Black Nickel Direct Mount",
+      "bridge_pickup": "Fishman Fluence Modern Humbucker Ceramic Black Nickel Direct Mount",
+      "controls": "Volume/Tone/3-Way Toggle",
+      "bridge": "TonePros T3BT Locking TOM w/ String Thru Body",
+      "tuners": "Gotoh Magnum Lock"
+    }
+  }
+]
